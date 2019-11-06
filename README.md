@@ -4,9 +4,9 @@
 
 |key|value|
 |---|-----|
-|Name|ふー　ばー (Foo Bar)|
-|Blog|[ふーばーブログ](http://foobar.blog.com)|
-|Twitter|[@foobar](https://twitter.com/foobar)|
+|Name| Ryo Yamada |
+|Blog|[No big deal](https://ryo8md-ls.hatenablog.com/)|
+|Twitter|[@da8ma2017](https://twitter.com/da8ma2017)|
 
 ## スキル
 ### 言語
