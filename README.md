@@ -7,7 +7,7 @@
 |Name| Ryo Yamada |
 |Blog|[No big deal](https://ryo8md-ls.hatenablog.com/)|
 |Twitter|[@da8ma2017](https://twitter.com/da8ma2017)|
-|Linkedin|[Profile page](https://www.linkedin.com/in/ryo-yamada-b4b187190/)
+
 
 ## Skill
 ### Programming Language
