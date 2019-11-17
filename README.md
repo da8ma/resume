@@ -33,8 +33,8 @@
 
 ### complement
 
-- 2019/08 
-
+- 2019/08 Cousera 「Google Cloud Platform Fundamentals: Core Infrastructure 日本語版」 修了 ([証明書](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ))
+- 2019/10 Cousera 「Essential Cloud Infrastructure: Foundation 日本語版」 修了 ([証明書](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9))
 
 ## Language
 
@@ -54,7 +54,7 @@
 
 ### 2018/04 - 現在 : V 株式会社
 
-職務: ネットワーク・インフラエンジニア（例）
+職務: ネットワーク・インフラエンジニア
 
 #### 職務内容の名前（レストラン検索とか）
 
