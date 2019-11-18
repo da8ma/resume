@@ -4,7 +4,7 @@
 
 |key|value|
 |---|-----|
-|Name| Ryo Yamada |
+|Name| 山田涼(Ryo Yamada) |
 |Blog|[No big deal](https://ryo8md-ls.hatenablog.com/)|
 |Twitter|[@da8ma2017](https://twitter.com/da8ma2017)|
 
@@ -48,7 +48,9 @@
 
 ## やったことはないが興味があるもの
 
-* Ansible、Terraformを使用した構成管理(インフラコード)
+- クラウド環境を用いたNetwork構築。
+- Ansible、Terraformを使用した構成管理(インフラコード)
+- Docker, k8sなどのコンテナを使用した本番環境へのデプロイ。
 
 ## Job career
 
