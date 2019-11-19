@@ -31,6 +31,7 @@
 
 - TCP/IP
 - Linux (Redhat, Ubuntu, Debian)
+- [Shorewall](http://shorewall.org/) (firewall, nat, tunnel)
 - OpenVPN (L2/L3VPN)
 - IDS/ADS (snort)
 - L4 Loadbalancer (ldirectord + ipvsadm)
