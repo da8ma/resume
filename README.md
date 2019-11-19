@@ -25,7 +25,22 @@
 
 ### Other
 
+<!--
 - 言語やフレームワークに限らないスキル。開発手法やプロセス、ツールなど
+-->
+
+- TCP/IP
+- Linux (Redhat, Ubuntu, Debian)
+- OpenVPN (L2/L3VPN)
+- IDS/ADS (snort)
+- L4 Loadbalancer (ldirectord + ipvsadm)
+- バージョン管理 (Github, Gitlab)
+
+### Network Appliance
+
+- Cisco
+- Allied Telesis ([AT-SH210-9GT](https://www.allied-telesis.co.jp/products/list/switch/sh210/catalog.html))
+- Juniper (Netscreen/SSG)
 
 ## Certificate
 
