@@ -49,8 +49,8 @@
 
 ### complement
 
-- 2019/08 Cousera 「Google Cloud Platform Fundamentals: Core Infrastructure 日本語版」 修了 ([証明書](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ))
-- 2019/10 Cousera 「Essential Cloud Infrastructure: Foundation 日本語版」 修了 ([証明書](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9))
+- 2019/08 Cousera 「Google Cloud Platform Fundamentals: Core Infrastructure 日本語版」 修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ))
+- 2019/10 Cousera 「Essential Cloud Infrastructure: Foundation 日本語版」 修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9))
 
 ## Language
 
