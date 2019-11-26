@@ -37,6 +37,11 @@
 - L4 Loadbalancer (ldirectord + ipvsadm)
 - バージョン管理 (Github, Gitlab)
 
+#### Project Mamagemnet
+
+- Redmine
+- Asana + Instagannt
+
 ### Network Appliance
 
 - Cisco
@@ -74,7 +79,7 @@
 
 職務: ネットワーク・インフラエンジニア
 
-#### 職務内容の名前（レストラン検索とか）
+#### config automation
 
 - 職務内容の詳細を箇条書きでかく
 
