@@ -40,7 +40,7 @@
 #### Project Mamagemnet
 
 - Redmine
-- Asana + Instagannt
+- Asana + Instagantt
 
 ### Network Appliance
 
