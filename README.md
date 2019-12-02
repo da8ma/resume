@@ -7,6 +7,7 @@
 |Name| 山田涼(Ryo Yamada) |
 |Blog|[No big deal](https://ryo8md-ls.hatenablog.com/)|
 |Twitter|[@da8ma2017](https://twitter.com/da8ma2017)|
+|Wantedly| [Ryo Yamada](https://www.wantedly.com/users/124186115) |
 
 
 ## Skill
@@ -79,9 +80,19 @@
 
 職務: ネットワーク・インフラエンジニア
 
-#### config automation
+#### config automation (2019/03 ~ 2019/10)
 
-- 職務内容の詳細を箇条書きでかく
+
+#### JPNE v6プラス サービス検証 (2018/10 ~ 2018/11)
+
+自社で提供しているUTM機器のv6プラスサービス対応に向け、某大手通信キャリアの環境をお借りし検証を実施した。
+
+- 検証のためのNW構築や設定投入を担当。
+- 検証項目やスケジュールの作成を行った。
+
+**Related link** <br>
+https://www.jpne.co.jp/service/v6plus/
+
 
 <!---
 ## 課外活動
