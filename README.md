@@ -38,7 +38,7 @@
 - L4 Loadbalancer (ldirectord + ipvsadm)
 - バージョン管理 (Github, Gitlab)
 
-#### Project Mamagemnet
+### Project Mamagemnet
 
 - Redmine (Incident管理)
 - Asana + Instagantt
@@ -48,6 +48,11 @@
 - Cisco
 - Allied Telesis ([AT-SH210-9GT](https://www.allied-telesis.co.jp/products/list/switch/sh210/catalog.html))
 - Juniper (Netscreen/SSG)
+
+### Hobby
+
+- Honeypot <br>
+GCP上(GCE + Stackdriver logging + Big query)で「WOWHoneypot」と「Cowrie」を運用中。
 
 ## Certificate
 
@@ -83,12 +88,12 @@
 
 #### config automation (2019/03 ~ 2019/10)
 
-外部に委託している自社のUTM機器の設定投入作業を効率化するProject。Projectのスケジュール管理、kintoneを使用した設定入力画面の作成、設定を自動化するscriptと試験と改修を行った。
+外部に委託している自社のUTM機器の設定投入作業を効率化するProject。<br> Projectのスケジュール管理、kintoneを使用した設定入力画面の作成、設定を自動化するscriptの試験と改修を行った。
 
 ##### 工夫した点
 
 - Asana + Instagannt でプロジェクト管理<br>
-従来のExcelでの管理から無料で無期限かつWEB GUIで閲覧できるAsanaに移行を提案。InstaganntはAsanaのタスクをガントチャートで閲覧するために使用。
+従来のExcelでの管理から無料で無期限かつWEB GUIで閲覧できるAsanaに移行を提案。<br> InstaganntはAsanaのタスクをガントチャートで閲覧するために使用。
 
 - Gitlabでのversion管理<br>
 部署内でファイルの変更のたびにfile nameにrevision番号をつけて送信する文化が根付いていたので、当時社内で使用を検討されていた「Gitlab」でのversion管理を率先して実施した。
@@ -98,7 +103,7 @@
 
 #### JPNE v6プラス サービス検証 (2018/10 ~ 2018/11)
 
-自社で提供しているUTM機器のv6プラスサービス対応に向け、某大手通信キャリアの環境をお借りし検証を実施した。
+自社で提供しているUTM機器のv6プラスサービス対応に向け、<br>某大手通信キャリアの環境をお借りし検証を実施した。
 
 - 検証のためのNW構築や設定投入を担当。
 - 検証項目やスケジュールの作成を行った。
