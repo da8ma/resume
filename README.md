@@ -40,7 +40,7 @@
 
 #### Project Mamagemnet
 
-- Redmine
+- Redmine (Incident管理)
 - Asana + Instagantt
 
 ### Network Appliance
@@ -58,13 +58,14 @@
 - 2019/08 Cousera 「Google Cloud Platform Fundamentals: Core Infrastructure 日本語版」 修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ))
 - 2019/10 Cousera 「Essential Cloud Infrastructure: Foundation 日本語版」 修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9))
 
-## Language
+<!--## Language
 
 - 日本語
   - ネイティブ
 - 英語
   - かんたんな日常会話ができる
   - TOEIC: xxx点
+-->
 
 ## 強み
 
@@ -82,6 +83,18 @@
 
 #### config automation (2019/03 ~ 2019/10)
 
+外部に委託している自社のUTM機器の設定投入作業を効率化するProject。Projectのスケジュール管理、kintoneを使用した設定入力画面の作成、設定を自動化するscriptと試験と改修を行った。
+
+##### 工夫した点
+
+- Asana + Instagannt でプロジェクト管理<br>
+従来のExcelでの管理から無料で無期限かつWEB GUIで閲覧できるAsanaに移行を提案。InstaganntはAsanaのタスクをガントチャートで閲覧するために使用。
+
+- Gitlabでのversion管理<br>
+部署内でファイルの変更のたびにfile nameにrevision番号をつけて送信する文化が根付いていたので、当時社内で使用を検討されていた「Gitlab」でのversion管理を率先して実施した。
+
+- wikiの充実化<br>
+直接Projectに貢献したか分からないが、情報の集約を目的として過去chatやMtgであがった議論をGitlab Wikiに文献としてまとめた。
 
 #### JPNE v6プラス サービス検証 (2018/10 ~ 2018/11)
 
