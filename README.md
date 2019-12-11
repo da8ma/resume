@@ -52,7 +52,7 @@
 ### Hobby
 
 - Honeypot <br>
-GCP上(GCE + Stackdriver logging + Big query)で「WOWHoneypot」と「Cowrie」を運用中。
+GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowrie」を運用中。
 
 ## Certificate
 
@@ -88,7 +88,7 @@ GCP上(GCE + Stackdriver logging + Big query)で「WOWHoneypot」と「Cowrie」
 
 #### config automation (2019/03 ~ 2019/10)
 
-外部に委託している自社のUTM機器の設定投入作業を効率化するProject。<br> Projectのスケジュール管理、kintoneを使用した設定入力画面の作成、設定を自動化するscriptの試験と改修を行った。
+外部に委託している自社のUTM機器の設定投入作業を効率化するProject。<br> Projectのスケジュール管理、kintoneを使用した設定入力画面の作成、<br>設定を自動化するscriptの試験と改修を行った。
 
 ##### 工夫した点
 
