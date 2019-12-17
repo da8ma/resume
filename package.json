@@ -1,0 +1,12 @@
+{
+  "name": "Curriculum-Vitae",
+  "version": "1.0.0",
+  "description": "CV repository",
+  "main": "index.js",
+  "repository": "https://github.com/da8ma/Curriculum-Vitae.git",
+  "author": "Ryo Yamada",
+  "license": "MIT",
+  "dependencies": {
+    "md-to-pdf": "^2.8.2"
+  }
+}
