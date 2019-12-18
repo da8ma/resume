@@ -1,8 +1,3 @@
----
-stylesheet: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css
-body_class: markdown-body
----
-
 # 職務経歴書
 
 ## Basic infomation
@@ -79,6 +74,8 @@ GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowri
 
 ## 強み
 
+* 
+
 ## やったことはないが興味があるもの
 
 - クラウド環境を用いたNetwork構築。
@@ -95,6 +92,18 @@ GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowri
 
 外部に委託している自社のUTM機器の設定投入作業を効率化するProject。<br> Projectのスケジュール管理、kintoneを使用した設定入力画面の作成、<br>設定を自動化するscriptの試験と改修を行った。
 
+##### 業務内容
+
+- kintoneのアプリ実装・テスト (アカウント、セキュリティの管理も行っていた。)
+- スクリプトのテスト
+- Gitlabに上がったbugの改修
+- プロジェクト全体のスケジュール管理
+
+##### PJ体制
+
+- 開発
+    - 3名 (常駐の方1名 + 私含め2名)
+
 ##### 工夫した点
 
 - Asana + Instagannt でプロジェクト管理<br>
@@ -104,7 +113,7 @@ GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowri
 部署内でファイルの変更のたびにfile nameにrevision番号をつけて送信する文化が根付いていたので、当時社内で使用を検討されていた「Gitlab」でのversion管理を率先して実施した。
 
 - wikiの充実化<br>
-直接Projectに貢献したか分からないが、情報の集約を目的として過去chatやMtgであがった議論をGitlab Wikiに文献としてまとめた。
+情報の集約を目的として過去chatやMtgであがった議論をGitlab Wikiに文献としてまとめた。
 
 #### JPNE v6プラス サービス検証 (2018/10 ~ 2018/11)
 
