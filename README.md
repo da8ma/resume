@@ -74,7 +74,8 @@ GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowri
 
 ## 強み
 
-* 
+* OpenSourceを用いたNetworkの設定が得意。
+* 検証業務を多くこなしてきた関係で、新しい分野でも手を動かすことに抵抗がない。
 
 ## やったことはないが興味があるもの
 
@@ -95,14 +96,14 @@ GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowri
 ##### 業務内容
 
 - kintoneのアプリ実装・テスト (アカウント、セキュリティの管理も行っていた。)
-- スクリプトのテスト
+- 実機を使用したスクリプトのテスト。
 - Gitlabに上がったbugの改修
 - プロジェクト全体のスケジュール管理
 
 ##### PJ体制
 
-- 開発
-    - 3名 (常駐の方1名 + 私含め2名)
+- 人数
+    - 3名 <br>(実機の検証は自分一人で、kintoneのアプリは常駐の方含めた2名で開発。)
 
 ##### 工夫した点
 
@@ -120,7 +121,7 @@ GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowri
 自社で提供しているUTM機器のv6プラスサービス対応に向け、<br>某大手通信キャリアの環境をお借りし検証を実施した。
 
 - 検証のためのNW構築や設定投入を担当。
-- 検証項目やスケジュールの作成を行った。
+- 検証項目やスケジュールの作成。
 
 **Related link** <br>
 https://www.jpne.co.jp/service/v6plus/
