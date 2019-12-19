@@ -103,7 +103,7 @@ GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowri
 ##### PJ体制
 
 - 人数
-    - 3名 <br>(実機の検証は自分一人で、kintoneのアプリは常駐の方含めた2名で開発。)
+    - 3名 <br>(実機の検証は自分一人で、kintoneのアプリは私と常駐の方含めた2名で開発。)
 
 ##### 工夫した点
 
