@@ -107,8 +107,8 @@ GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowri
 
 ##### 工夫した点
 
-- Asana + Instagannt でプロジェクト管理<br>
-従来のExcelでの管理から無料で無期限かつWEB GUIで閲覧できるAsanaに移行を提案。<br> InstaganntはAsanaのタスクをガントチャートで閲覧するために使用。
+- Asana + Instaganntt でプロジェクト管理<br>
+従来のExcelでの管理から無料で無期限かつWEB GUIで閲覧できるAsanaに移行を提案。<br> InstagannttはAsanaのタスクをガントチャートで閲覧するために使用。
 
 - Gitlabでのversion管理<br>
 部署内でファイルの変更のたびにfile nameにrevision番号をつけて送信する文化が根付いていたので、当時社内で使用を検討されていた「Gitlab」でのversion管理を率先して実施した。
