@@ -8,6 +8,7 @@
 |Blog|[No big deal](https://ryo8md-ls.hatenablog.com/)|
 |Twitter|[@da8ma2017](https://twitter.com/da8ma2017)|
 |Wantedly| [Ryo Yamada](https://www.wantedly.com/users/124186115) |
+|ブクログ | [本棚](https://booklog.jp/users/da8ma)|
 
 
 ## Skill
