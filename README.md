@@ -76,7 +76,7 @@ GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowri
 
 ## 強み
 
-* OpenSourceを用いたNetworkの設定が得意。
+* OSSを用いたNetworkの設定が得意。
 * 検証業務を多くこなしてきた関係で、新しい分野でも手を動かすことに抵抗がない。
 
 ## やったことはないが興味があるもの
@@ -125,7 +125,7 @@ GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowri
 - 検証のためのNW構築や設定投入を担当。
 - 検証項目やスケジュールの作成。
 
-**Related link** <br>
+**参考リンク** <br>
 https://www.jpne.co.jp/service/v6plus/
 
 
