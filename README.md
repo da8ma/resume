@@ -1,6 +1,6 @@
 # 職務経歴書
 
-## Basic infomation
+## 基本情報
 
 |key|value|
 |---|-----|
@@ -11,8 +11,8 @@
 |ブクログ | [本棚](https://booklog.jp/users/da8ma)|
 
 
-## Skill
-### Programming Language
+## スキル
+### 言語
 - Python3
 - Bash
 
@@ -25,7 +25,7 @@
 - などなど
 -->
 
-### Other
+### その他
 
 <!--
 - 言語やフレームワークに限らないスキル。開発手法やプロセス、ツールなど
@@ -39,28 +39,28 @@
 - L4 Loadbalancer (ldirectord + ipvsadm)
 - バージョン管理 (Github, Gitlab)
 
-### Project Mamagemnet
+### マネジメント系
 
 - Redmine (Incident管理)
 - Asana + Instagantt
 
-### Network Appliance
+### ネットワーク機器
 
 - Cisco
 - Allied Telesis ([AT-SH210-9GT](https://www.allied-telesis.co.jp/products/list/switch/sh210/catalog.html))
 - Juniper (Netscreen/SSG)
 
-### Hobby
+### 趣味
 
 - Honeypot <br>
 GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowrie」を運用中。
 
-## Certificate
+## 資格
 
 - 2020/01 LPIC101合格 (102学習中)
 - 2019/05 情報セキュリティマネジメント 取得
 
-### complement
+### 補足
 
 - 2019/08 Cousera 「Google Cloud Platform Fundamentals: Core Infrastructure 日本語版」 修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ))
 - 2019/10 Cousera 「Essential Cloud Infrastructure: Foundation 日本語版」 修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9))
@@ -85,7 +85,7 @@ GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowri
 - Ansible、Terraformを使用した構成管理(インフラコード)
 - Docker, k8sなどのコンテナを使用した本番環境へのデプロイ。
 
-## Job career
+## 職務経歴
 
 ### 2018/04 - 現在 : V 株式会社
 
