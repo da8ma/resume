@@ -57,7 +57,7 @@ GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowri
 
 ## 資格
 
-- 2020/01 LPIC101合格 (102学習中)
+- 2020/03 LPIC レベル１ 合格
 - 2019/05 情報セキュリティマネジメント 取得
 
 ### 補足
