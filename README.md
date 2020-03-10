@@ -8,7 +8,7 @@
 |Blog|[No big deal](https://ryo8md-ls.hatenablog.com/)|
 |Twitter|[@da8ma2017](https://twitter.com/da8ma2017)|
 |Wantedly| [Ryo Yamada](https://www.wantedly.com/users/124186115) |
-|ブクログ | [本棚](https://booklog.jp/users/da8ma)|
+
 
 
 ## スキル
@@ -39,10 +39,6 @@
 - L4 Loadbalancer (ldirectord + ipvsadm)
 - バージョン管理 (Github, Gitlab)
 
-### マネジメント系
-
-- Redmine (Incident管理)
-- Asana + Instagantt
 
 ### ネットワーク機器
 
