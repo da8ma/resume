@@ -33,7 +33,8 @@
 
 - TCP/IP
 - Linux (Redhat, Ubuntu, Debian)
-- [Shorewall](http://shorewall.org/) (firewall, nat, tunnel)
+- [Shorewall](http://shorewall.org/) (firewall)
+- L2TP/IPsec (xl2tpd + strongswan)
 - OpenVPN (L2/L3VPN)
 - IDS/ADS (snort)
 - L4 Loadbalancer (ldirectord + ipvsadm)
@@ -43,17 +44,18 @@
 ### ネットワーク機器
 
 - Cisco
-- Allied Telesis ([AT-SH210-9GT](https://www.allied-telesis.co.jp/products/list/switch/sh210/catalog.html))
+- Allied Telesis
 - Juniper (Netscreen/SSG)
 
 ### 趣味
 
+- 自宅NW構築
 - Honeypot <br>
 GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowrie」を運用中。
 
 ## 資格
 
-- 2020/03 LPIC レベル１ 合格
+- 2020/03 LPIC level 1 ([認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy))
 - 2019/05 情報セキュリティマネジメント 取得
 
 ### 補足
