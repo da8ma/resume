@@ -32,23 +32,36 @@
 -->
 
 - TCP/IP
-- Linux (Redhat, Ubuntu, Debian)
-- [Shorewall](http://shorewall.org/) (firewall)
-- L2TP/IPsec (xl2tpd + strongswan)
-- OpenVPN (L2/L3VPN)
-- IDS/ADS (snort)
-- L4 Loadbalancer (ldirectord + ipvsadm)
-- バージョン管理 (Github, Gitlab)
+- OS
+  - RedHat
+  - CentOS
+  - Ubuntu
+- Middleware
+  - [Shorewall](http://shorewall.org/) (zone base firewall)
+  - quagga
+  - xl2tpd
+  - strongswan
+  - OpenVPN (L2/L3VPN)
+  - BIND
+  - Snort (IDS/ADS)
+  - L4 Loadbalancer (ldirectord + ipvsadm)
+- Development Tool
+  - Github
+  - Gitlab
+  - Asana
+  - Instagannt
 
 
 ### ネットワーク機器
 
 - Cisco
+  - Catalyst
 - Allied Telesis
 - Juniper (Netscreen/SSG)
 
 ### 趣味
 
+- 楽器 (ベース)
 - 自宅NW構築
 - Honeypot <br>
 GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowrie」を運用中。
