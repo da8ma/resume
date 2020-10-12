@@ -62,9 +62,12 @@
 ### 趣味
 
 - 楽器 (ベース)
+- ウィンドウショッピング
 - 自宅NW構築
-- Honeypot <br>
-GCP上(GCE + Stackdriver logging + Big query)で<br>「WOWHoneypot」と「Cowrie」を運用中。
+<!--
+- Honeypot
+GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie」を運用中。
+-->
 
 ## 資格
 
