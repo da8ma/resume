@@ -90,7 +90,7 @@ GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie�
 
 ## 強み
 
-* OSSを用いたNetworkの設定が得意。
+* ミドルウェアを用いたNW構築が得意。
 * 検証業務を多くこなしてきた関係で、新しい分野でも手を動かすことに抵抗がない。
 
 ## やったことはないが興味があるもの
