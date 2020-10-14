@@ -37,7 +37,7 @@
   - CentOS
   - Ubuntu
 - Middleware
-  - [Shorewall](http://shorewall.org/) (zone base firewall)
+  - [Shorewall](http://shorewall.org/) (iptables base firewall)
   - quagga
   - xl2tpd
   - strongswan
