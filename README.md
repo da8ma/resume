@@ -5,7 +5,7 @@
 |key|value|
 |---|-----|
 |Name| 山田涼(Ryo Yamada) |
-|Blog|[No big deal](https://ryo8md-ls.hatenablog.com/)|
+|Blog|[Plug me in](https://blog.da8ma.com/)|
 |Twitter|[@da8ma2017](https://twitter.com/da8ma2017)|
 |Wantedly| [Ryo Yamada](https://www.wantedly.com/users/124186115) |
 
@@ -38,9 +38,9 @@
   - Ubuntu
 - Middleware
   - [Shorewall](http://shorewall.org/) (iptables base firewall)
-  - quagga
+  - Quagga
   - xl2tpd
-  - strongswan
+  - strongSwan
   - OpenVPN (L2/L3VPN)
   - BIND
   - Snort (IDS/ADS)
@@ -71,6 +71,7 @@ GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie�
 
 ## 資格
 
+- 2020/12 AZ-900: Microsoft Azure Fundamentals ([認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile))
 - 2020/03 LPIC level 1 ([認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy))
 - 2019/05 情報セキュリティマネジメント 取得
 
