@@ -25,7 +25,7 @@
 - などなど
 -->
 
-### その他
+### ネットワーク
 
 <!--
 - 言語やフレームワークに限らないスキル。開発手法やプロセス、ツールなど
@@ -36,26 +36,47 @@
   - RedHat
   - CentOS
   - Ubuntu
+
 - Middleware
-  - [Shorewall](http://shorewall.org/) (iptables base firewall)
-  - Quagga
-  - xl2tpd
-  - strongSwan
-  - OpenVPN (L2/L3VPN)
-  - BIND
-  - Snort (IDS/ADS)
-  - L4 Loadbalancer (ldirectord + ipvsadm)
+  - Firewall (zone base)
+    - [Shorewall](http://shorewall.org/) 
+    (iptables base firewall)
+  - routing
+    - Quagga (BGP)
+  - Remote Access VPN
+    - L2TP over IPsec
+      - xl2tpd
+      - strongSwan
+    - IPsec VPN
+       - strongSwan (ikev2)
+  - Site to Site VPN
+    - OpenVPN (L2/L3VPN)
+  - AWS VPN
+    - strongSwan
+    - Quagga
+  - Proxy
+    - Squid
+    - c-icap (ICAP Server)
+  - DNS
+    - BIND
+  - IDS/ADS
+    - Snort
+  - L4 Loadbalancer 
+    - ldirectord + ipvsadm
 - Development Tool
   - Github
   - Gitlab
   - Asana
   - Instagannt
-
+- Document Tool
+  - Notion
 
 ### ネットワーク機器
 
 - Cisco
   - Catalyst
+  - Access Point
+- NEC UNIVERSERGE IX
 - Allied Telesis
 - Juniper (Netscreen/SSG)
 
@@ -71,6 +92,7 @@ GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie�
 
 ## 資格
 
+- 2022/01 AWS Certified Cloud Practitioner ([認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url))
 - 2020/12 AZ-900: Microsoft Azure Fundamentals ([認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile))
 - 2020/03 LPIC level 1 ([認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy))
 - 2019/05 情報セキュリティマネジメント 取得
