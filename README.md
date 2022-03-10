@@ -10,7 +10,6 @@
 |Wantedly| [Ryo Yamada](https://www.wantedly.com/users/124186115) |
 
 
-
 ## スキル
 ### 言語
 - Python3
@@ -63,12 +62,15 @@
     - Snort
   - L4 Loadbalancer 
     - ldirectord + ipvsadm
+- Monitoring Tool
+  - Zabbix
 - Development Tool
   - Github
   - Gitlab
   - Asana
   - Instagannt
 - Document Tool
+  - Redmine
   - Notion
 
 ### ネットワーク機器
