@@ -45,14 +45,14 @@
   - Remote Access VPN
     - L2TP over IPsec
       - xl2tpd
-      - strongSwan
+      - strongSwan (ikev1)
     - IPsec VPN
        - strongSwan (ikev2)
   - Site to Site VPN
     - OpenVPN (L2/L3VPN)
   - AWS VPN
     - strongSwan
-    - Quagga
+    - Quagga (eBGP)
   - Proxy
     - Squid
     - c-icap (ICAP Server)
