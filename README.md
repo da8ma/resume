@@ -9,7 +9,6 @@
 |Twitter|[@da8ma2017](https://twitter.com/da8ma2017)|
 |Wantedly| [Ryo Yamada](https://www.wantedly.com/users/124186115) |
 
-
 ## スキル
 ### 言語
 - Python3
@@ -37,9 +36,8 @@
   - Ubuntu
 
 - Middleware
-  - Firewall (zone base)
-    - [Shorewall](http://shorewall.org/) 
-    (iptables base firewall)
+  - Firewall (zone based firewall)
+    - [Shorewall](http://shorewall.org/) (iptables base firewall)
   - routing
     - Quagga (BGP)
   - Remote Access VPN
@@ -53,6 +51,8 @@
   - AWS VPN
     - strongSwan
     - Quagga (eBGP)
+  - Azure VPN Gateway ([Classic](https://docs.microsoft.com/ja-jp/azure/vpn-gateway/design#s2smulti))
+    - strongSwan
   - Proxy
     - Squid
     - c-icap (ICAP Server)
@@ -64,6 +64,9 @@
     - ldirectord + ipvsadm
 - Monitoring Tool
   - Zabbix
+- Chat Tool
+  - Slack
+  - Zulip 
 - Development Tool
   - Github
   - Gitlab
@@ -166,7 +169,6 @@ GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie�
 
 **参考リンク** <br>
 https://www.jpne.co.jp/service/v6plus/
-
 
 <!---
 ## 課外活動
