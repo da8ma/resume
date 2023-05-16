@@ -1,0 +1,12 @@
+{
+  "name": "Curriculum-Vitae",
+  "version": "1.0.0",
+  "description": "ryo-yamadaの職務経歴書",
+  "main": "index.js",
+  "repository": "https://github.com/da8ma/Curriculum-Vitae.git",
+  "author": "Ryo Yamada <ryo.8mada1020@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "md-to-pdf": "^5.2.4"
+  }
+}
