@@ -10,9 +10,11 @@
 |最終学歴| 明治学院大学法学部 |
 
 
-## 各種アカウント
+## Blog
 
-[![Blog URL](https://img.shields.io/badge/My%20Blog-%23E9E5E3.svg?&style=flat-square&logo=blogger&logoColor=black)](https://blog.da8ma.com/)
+[![Blog URL](https://img.shields.io/badge/Plug%20me%20in-%23E9E5E3.svg?&style=flat-square&logo=blogger&logoColor=black)](https://blog.da8ma.com/)
+
+## 各種アカウント
 [![Github URL](https://img.shields.io/badge/Ryo%20Yamada%20-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/da8ma)
 [![Twitter URL](https://img.shields.io/badge/@da8ma2017-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/da8ma2017)
 
