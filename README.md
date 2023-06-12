@@ -9,17 +9,13 @@
 |居住地| 東京都 |
 |最終学歴| 明治学院大学法学部 |
 
----
 
 ## 各種アカウント
 
+[![Blog URL](https://img.shields.io/badge/My%20Blog-%23E9E5E3.svg?&style=flat-square&logo=blogger&logoColor=black)](https://blog.da8ma.com/)
 [![Github URL](https://img.shields.io/badge/Ryo%20Yamada%20-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/da8ma)
 [![Twitter URL](https://img.shields.io/badge/@da8ma2017-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/da8ma2017)
-[![Blog URL](https://img.shields.io/badge/blog-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white)](https://blog.da8ma.com/)
 
-
-
----
 
 ## 保有資格
 
@@ -32,8 +28,6 @@
 
 - 2019/08 Cousera 「Google Cloud Platform Fundamentals: Core Infrastructure 日本語版」 修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ))
 - 2019/10 Cousera 「Essential Cloud Infrastructure: Foundation 日本語版」 修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9))
-
----
 
 <!---
 ### Framework
@@ -127,13 +121,11 @@ GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie�
   - TOEIC: xxx点
 -->
 
----
 ## 強み
 
 * ミドルウェアを用いたNW構築が得意。
 * 検証業務を多くこなしてきた関係で、新しい分野でも手を動かすことに抵抗がない。
 
----
 
 ## やったことはないが興味があるもの
 
@@ -141,9 +133,7 @@ GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie�
 - Ansible、Terraformを使用した構成管理(インフラコード)
 - Docker, k8sなどのコンテナを使用した本番環境へのデプロイ。
 
----
-
-## 職務経歴
+## 職務経歴詳細
 
 ### 2018/04 - 現在 : バリオセキュア株式会社
 
