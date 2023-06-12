@@ -5,14 +5,35 @@
 |key|value|
 |---|-----|
 |Name| 山田涼(Ryo Yamada) |
-|Blog|[Plug me in](https://blog.da8ma.com/)|
-|Twitter|[@da8ma2017](https://twitter.com/da8ma2017)|
-|Wantedly| [Ryo Yamada](https://www.wantedly.com/users/124186115) |
+|生年月日| 1995/10/20 |
+|居住地| 東京都 |
+|最終学歴| 明治学院大学法学部 |
 
-## スキル
-### 言語
-- Python3
-- Bash
+---
+
+## 各種アカウント
+
+[![Github URL](https://img.shields.io/badge/Ryo%20Yamada%20-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/da8ma)
+[![Twitter URL](https://img.shields.io/badge/@da8ma2017-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/da8ma2017)
+[![Blog URL](https://img.shields.io/badge/blog-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white)](https://blog.da8ma.com/)
+
+
+
+---
+
+## 保有資格
+
+- 2022/01 AWS Certified Cloud Practitioner ([認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url))
+- 2020/12 AZ-900: Microsoft Azure Fundamentals ([認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile))
+- 2020/03 LPIC level 1 ([認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy))
+- 2019/05 情報セキュリティマネジメント 取得
+
+### 補足
+
+- 2019/08 Cousera 「Google Cloud Platform Fundamentals: Core Infrastructure 日本語版」 修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ))
+- 2019/10 Cousera 「Essential Cloud Infrastructure: Foundation 日本語版」 修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9))
+
+---
 
 <!---
 ### Framework
@@ -23,7 +44,7 @@
 - などなど
 -->
 
-### ネットワーク
+## 技術スタック
 
 <!--
 - 言語やフレームワークに限らないスキル。開発手法やプロセス、ツールなど
@@ -66,7 +87,6 @@
   - Zabbix
 - Chat Tool
   - Slack
-  - Zulip 
 - Development Tool
   - Github
   - Gitlab
@@ -76,36 +96,27 @@
   - Redmine
   - Notion
 
-### ネットワーク機器
+### ベンダー機器
 
-- Cisco
-  - Catalyst
-  - Access Point
-- NEC UNIVERSERGE IX
-- Allied Telesis
-- Juniper (Netscreen/SSG)
+- Router
+  - Cisco
+    - Catalyst
+    - Access Point
+  - NEC UNIVERSERGE IX
+  - Juniper (Netscreen/SSG)
 
-### 趣味
+- L2SW
+  - Allied Telesis
+  - Sophos (CS210-8FP)
 
-- 楽器 (ベース)
-- ウィンドウショッピング
-- 自宅NW構築
+### 言語
+- Python3
+- Bash
+
 <!--
 - Honeypot
 GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie」を運用中。
 -->
-
-## 資格
-
-- 2022/01 AWS Certified Cloud Practitioner ([認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url))
-- 2020/12 AZ-900: Microsoft Azure Fundamentals ([認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile))
-- 2020/03 LPIC level 1 ([認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy))
-- 2019/05 情報セキュリティマネジメント 取得
-
-### 補足
-
-- 2019/08 Cousera 「Google Cloud Platform Fundamentals: Core Infrastructure 日本語版」 修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ))
-- 2019/10 Cousera 「Essential Cloud Infrastructure: Foundation 日本語版」 修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9))
 
 <!--## Language
 
@@ -116,10 +127,13 @@ GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie�
   - TOEIC: xxx点
 -->
 
+---
 ## 強み
 
 * ミドルウェアを用いたNW構築が得意。
 * 検証業務を多くこなしてきた関係で、新しい分野でも手を動かすことに抵抗がない。
+
+---
 
 ## やったことはないが興味があるもの
 
@@ -127,9 +141,11 @@ GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie�
 - Ansible、Terraformを使用した構成管理(インフラコード)
 - Docker, k8sなどのコンテナを使用した本番環境へのデプロイ。
 
+---
+
 ## 職務経歴
 
-### 2018/04 - 現在 : V 株式会社
+### 2018/04 - 現在 : バリオセキュア株式会社
 
 職務: ネットワーク・インフラエンジニア
 
