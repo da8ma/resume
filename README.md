@@ -7,17 +7,19 @@
 |Name| 山田涼(Ryo Yamada) |
 |生年月日| 1995/10/20 |
 |居住地| 東京都 |
-|最終学歴| 明治学院大学法学部 |
+|最終学歴| 明治学院大学法学部法律学科 |
 
 
 ## Blog
-
 [![Blog URL](https://img.shields.io/badge/Plug%20me%20in-%23E9E5E3.svg?&style=flat-square&logo=astro&logoColor=black)](https://blog.da8ma.com/)
+
+## LAPRAS
+<!--START_SECTION:lapras-card-->
+<!--END_SECTION:lapras-card-->
 
 ## 各種アカウント
 [![Github URL](https://img.shields.io/badge/Ryo%20Yamada%20-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/da8ma)
 [![Twitter URL](https://img.shields.io/badge/@da8ma2017-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/da8ma2017)
-
 
 ## 保有資格
 
