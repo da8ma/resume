@@ -7,22 +7,24 @@
 |Name| 山田涼(Ryo Yamada) |
 |生年月日| 1995/10/20 |
 |居住地| 東京都 |
-|最終学歴| 明治学院大学法学部法律学科 |
+|最終学歴| 明治学院大学 法学部法律学科 |
 
 
 ## Blog
 [![Blog URL](https://img.shields.io/badge/Plug%20me%20in-%23E9E5E3.svg?&style=flat-square&logo=astro&logoColor=black)](https://blog.da8ma.com/)
 
-## LAPRAS
+<!--## LAPRAS-->
 <!--START_SECTION:lapras-card-->
 <!--END_SECTION:lapras-card-->
 
 ## 各種アカウント
 [![Github URL](https://img.shields.io/badge/Ryo%20Yamada%20-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/da8ma)
 [![Twitter URL](https://img.shields.io/badge/@da8ma2017-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/da8ma2017)
+[![LinkedIn URL](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&style=flat-square&logo=linkedin&logoColor=white)](https://twitter.com/da8ma2017)
 
 ## 保有資格
 
+- 2023/12 LPI Security Essentials 020-100 ([認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/3txgcdaec8))
 - 2022/01 AWS Certified Cloud Practitioner ([認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url))
 - 2020/12 AZ-900: Microsoft Azure Fundamentals ([認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile))
 - 2020/03 LPIC level 1 ([認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy))
@@ -106,6 +108,10 @@
 - L2SW
   - Allied Telesis
   - Sophos (CS210-8FP)
+
+- Server
+  - Dell PowerEdge
+    - iDRAC9
 
 ### 言語
 - Python3
