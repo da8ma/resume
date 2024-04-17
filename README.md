@@ -24,6 +24,7 @@
 
 ## 保有資格
 
+- 2024/04 Google Cloud Associate Cloud Engineer ([認定証](https://www.credly.com/badges/a948aa9a-00d3-4c27-9423-c9824aa6f32a/linked_in_profile))
 - 2023/12 LPI Security Essentials 020-100 ([認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/3txgcdaec8))
 - 2022/01 AWS Certified Cloud Practitioner ([認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url))
 - 2020/12 AZ-900: Microsoft Azure Fundamentals ([認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile))
@@ -52,7 +53,6 @@
 
 - TCP/IP
 - OS
-  - RedHat
   - CentOS
   - Ubuntu
 
