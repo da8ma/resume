@@ -7,6 +7,8 @@
   "author": "Ryo Yamada <ryo.8mada1020@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "md-to-pdf": "^5.2.4"
+    "husky": "^9.0.11",
+    "md-to-pdf": "^5.2.4",
+    "textlint": "^14.0.4"
   }
 }
