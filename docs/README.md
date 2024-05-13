@@ -33,8 +33,8 @@
 
 ### 補足
 
-- 2019/08 Cousera 「Google Cloud Platform Fundamentals: Core Infrastructure 日本語版」 修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ))
-- 2019/10 Cousera 「Essential Cloud Infrastructure: Foundation 日本語版」 修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9))
+- 2019/08 Cousera「Google Cloud Platform Fundamentals: Core Infrastructure 日本語版」修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ))
+- 2019/10 Cousera「Essential Cloud Infrastructure: Foundation 日本語版」修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9))
 
 <!---
 ### Framework
@@ -133,55 +133,55 @@ GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie�
 
 ## 強み
 
-* ミドルウェアを用いたNW構築が得意。
-* 検証業務を多くこなしてきた関係で、新しい分野でも手を動かすことに抵抗がない。
+* ミドルウェアを用いた NW 構築が得意
+* 検証業務を多くこなしてきた関係で、新しい分野でも手を動かすことに抵抗がない
 
 
 ## やったことはないが興味があるもの
 
-- クラウド環境を用いたNetwork構築。
-- Ansible、Terraformを使用した構成管理(インフラコード)
-- Docker, k8sなどのコンテナを使用した本番環境へのデプロイ。
+- クラウド環境を用いた Network 構築
+- Ansible、Terraform を使用した構成管理（インフラコード）
+- Docker, k8s などのコンテナを使用した本番環境へのデプロイ
 
 ## 職務経歴詳細
 
 ### 2018/04 - 現在 : バリオセキュア株式会社
 
-職務: ネットワーク・インフラエンジニア
+職務： ネットワーク・インフラエンジニア
 
 #### config automation (2019/03 ~ 2019/10)
 
-外部に委託している自社のUTM機器の設定投入作業を効率化するProject。<br> Projectのスケジュール管理、kintoneを使用した設定入力画面の作成、<br>設定を自動化するscriptの試験と改修を行った。
+外部に委託している自社の UTM 機器の設定投入作業を効率化する Project。<br> Project のスケジュール管理、kintone を使用した設定入力画面の作成、<br>設定を自動化する script の試験と改修を行った。
 
 ##### 業務内容
 
-- kintoneのアプリ実装・テスト (アカウント、セキュリティの管理も行っていた。)
-- 実機を使用したスクリプトのテスト。
-- Gitlabに上がったbugの改修
+- kintone のアプリ実装・テスト (アカウント、セキュリティの管理も行っていた）
+- 実機を使用したスクリプトのテスト
+- Gitlab に上がった bug の改修
 - プロジェクト全体のスケジュール管理
 
 ##### PJ体制
 
 - 人数
-    - 3名 <br>(実機の検証は自分一人で、kintoneのアプリは私と常駐の方含めた2名で開発。)
+    - 3 名 <br>(実機の検証は自分一人で、kintone のアプリは私と常駐の方含めた 2 名で開発）
 
 ##### 工夫した点
 
 - Asana + Instaganntt でプロジェクト管理<br>
-従来のExcelでの管理から無料で無期限かつWEB GUIで閲覧できるAsanaに移行を提案。<br> InstagannttはAsanaのタスクをガントチャートで閲覧するために使用。
+従来の Excel での管理から無料で無期限かつ Web GUI で閲覧できる Asana に移行を提案。<br> Instaganntt は Asana のタスクをガントチャートで閲覧するために使用。
 
-- Gitlabでのversion管理<br>
-部署内でファイルの変更のたびにfile nameにrevision番号をつけて送信する文化が根付いていたので、当時社内で使用を検討されていた「Gitlab」でのversion管理を率先して実施した。
+- Gitlab での version 管理<br>
+部署内でファイルの変更のたびに file name に revision 番号をつけて送信する文化が根付いていたので、当時社内で使用を検討されていた「Gitlab」での version 管理を率先して実施した。
 
-- wikiの充実化<br>
-情報の集約を目的として過去chatやMtgであがった議論をGitlab Wikiに文献としてまとめた。
+- Wiki の充実化<br>
+情報の集約を目的として過去 chat や Mtg であがった議論を Gitlab Wiki に文献としてまとめた。
 
 #### JPNE v6プラス サービス検証 (2018/10 ~ 2018/11)
 
-自社で提供しているUTM機器のv6プラスサービス対応に向け、<br>某大手通信キャリアの環境をお借りし検証を実施した。
+自社で提供している UTM 機器の v6 プラスサービス対応に向け、<br>某大手通信キャリアの環境をお借りし検証を実施した。
 
-- 検証のためのNW構築や設定投入を担当。
-- 検証項目やスケジュールの作成。
+- 検証のための NW 構築や設定投入を担当
+- 検証項目やスケジュールの作成
 
 **参考リンク** <br>
 https://www.jpne.co.jp/service/v6plus/
