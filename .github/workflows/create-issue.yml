@@ -9,7 +9,10 @@ jobs:
     name: create issue
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v4
       - uses: JasonEtco/create-an-issue@v2
+        with:
+          template: ".github/ISSUE_TEMPLATE/01-update-resume.md"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

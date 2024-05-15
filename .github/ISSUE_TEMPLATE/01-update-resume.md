@@ -7,4 +7,5 @@ assignees: da8ma
 
 ---
 
-
+The quarter has passed.
+Please describe your accomplishments during this period in your resume.
