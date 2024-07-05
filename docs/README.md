@@ -160,19 +160,21 @@ GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie�
 
 ## 保有資格
 
-|取得日|資格名称|
-|---|-----|
-- 2024/04 Google Cloud Associate Cloud Engineer ([認定証](https://www.credly.com/badges/a948aa9a-00d3-4c27-9423-c9824aa6f32a/linked_in_profile))
-- 2023/12 LPI Security Essentials 020-100 ([認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/3txgcdaec8))
-- 2022/01 AWS Certified Cloud Practitioner ([認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url))
-- 2020/12 AZ-900: Microsoft Azure Fundamentals ([認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile))
-- 2020/03 LPIC level 1 ([認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy))
-- 2019/05 情報セキュリティマネジメント 取得
+| 取得日 | 資格名称 | 認定証リンク |
+| :-----: | ------- | :--------: |
+| 2024/04 | Google Cloud Associate Cloud Engineer | [認定証](https://www.credly.com/badges/a948aa9a-00d3-4c27-9423-c9824aa6f32a/linked_in_profile) |
+| 2023/12 | LPI Security Essentials 020-100 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/3txgcdaec8) |
+| 2022/01 | AWS Certified Cloud Practitioner | [認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url) |
+| 2020/12 | AZ-900: Microsoft Azure Fundamentals | [認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile) |
+| 2020/03 | LPIC level 1 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy) |
+| 2019/05 | 情報セキュリティマネジメント 取得 ||
 
-### 補足
+### Coursera 修了証
 
-- 2019/08 Cousera「Google Cloud Platform Fundamentals: Core Infrastructure 日本語版」修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ))
-- 2019/10 Cousera「Essential Cloud Infrastructure: Foundation 日本語版」修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9))
+| 取得日 | コース名称 | 修了証リンク |
+| :-----: | :------- | :-----------: |
+| 2019/10 | Essential Cloud Infrastructure: Foundation<br> 日本語版 | [修了証](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9) |
+| 2019/08 | Google Cloud Platform Fundamentals: Core Infrastructure<br> 日本語版 | [修了証](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ) |
 
 ## Blog
 [![Blog URL](https://img.shields.io/badge/Plug%20me%20in-%23E9E5E3.svg?&style=flat-square&logo=astro&logoColor=black)](https://blog.da8ma.com/)
