@@ -16,8 +16,10 @@
 ## 強み
 
 - ミドルウェアを用いた NW 構築
-- ハイブリッドクラウド構成の構築を積極的に参画したため、
+   - リモートVPN (L2TP/IPsec, SSL-VPN)
 - 検証業務を多くこなしてきた関係で、新しい分野で手を動かすことに抵抗がない
+- 得意なNW構成
+  - AWS VPN gatewayを用いたハイブリッドクラウド構成
 
 
 ## やったことはないが興味があるもの
@@ -139,8 +141,11 @@ https://www.jpne.co.jp/service/v6plus/
     - iDRAC9
 
 ### 言語
-- Python3
-- Bash
+- bash
+  - 経験年数: 2年
+- Google App Script
+  - 経験年数: 0.5年
+  - kintoneのメンテナンス情報をSlackのchannelに通知する処理が実運用で採用された
 
 <!--
 - Honeypot
@@ -166,8 +171,8 @@ GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie�
 | 2023/12 | LPI Security Essentials 020-100 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/3txgcdaec8) |
 | 2022/01 | AWS Certified Cloud Practitioner | [認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url) |
 | 2020/12 | AZ-900: Microsoft Azure Fundamentals | [認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile) |
-| 2020/03 | LPIC level 1 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy) |
-| 2019/05 | 情報セキュリティマネジメント 取得 ||
+| 2020/03 | LPIC Level1 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy) |
+| 2019/05 | IPA 情報セキュリティマネジメント 合格 ||
 
 ### Coursera 修了証
 
