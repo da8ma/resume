@@ -11,22 +11,25 @@
 
 
 ## 職歴概要・要約
+ネットワークセキュリティを主軸する会社で６年に渡り、インフラエンジニアとして従事してきました。<br>
 
 
-## 強み
+## 得意なスキル・活かせる能力
 
-- ミドルウェアを用いた NW 構築
-   - リモートVPN (L2TP/IPsec, SSL-VPN)
-- 検証業務を多くこなしてきた関係で、新しい分野で手を動かすことに抵抗がない
-- 得意なNW構成
+- ミドルウェアを用いたネットワーク構築
+   - リモートVPN実装 (L2TP/IPsec, SSL-VPN)
+   - eBGPを使用した顧客側NWとキャリア網の接続・経路制御
+- 検証業務を数多くこなしてきた関係で、新しい分野で手を動かすことに抵抗がない
+- パブリッククラウド (AWS)
   - AWS VPN gatewayを用いたハイブリッドクラウド構成
 
 
 ## やったことはないが興味があるもの
 
-- オブザーバビリティを意識した
-- Ansible、Terraform を使用した構成管理（インフラコード）
+- Ansible、Terraform を使用した構成管理 (IaC)
 - Docker, k8s などのコンテナを使用した本番環境へのデプロイ
+- オブザーバビリティを意識した
+- 組織のセキュリティ向上を目的としたツールの構築/実装 (SIEM, SSO)
 
 ## 職務経歴詳細
 
@@ -72,84 +75,41 @@
 https://www.jpne.co.jp/service/v6plus/
 
 
-## 技術スタック
+## スキルセット
 
 <!--
 - 言語やフレームワークに限らないスキル。開発手法やプロセス、ツールなど
 -->
 
-- TCP/IP
-- OS
-  - CentOS
-  - Ubuntu
-
-- Middleware
-  - Firewall (zone based firewall)
-    - [Shorewall](http://shorewall.org/) (iptables base firewall)
-  - routing
-    - Quagga (BGP)
-  - Remote Access VPN
-    - L2TP over IPsec
-      - xl2tpd
-      - strongSwan (ikev1)
-    - IPsec VPN
-       - strongSwan (ikev2)
-  - Site to Site VPN
-    - OpenVPN (L2/L3VPN)
-  - AWS VPN
-    - strongSwan
-    - Quagga (eBGP)
-  - Azure VPN Gateway ([Classic](https://docs.microsoft.com/ja-jp/azure/vpn-gateway/design#s2smulti))
-    - strongSwan
-  - Proxy
-    - Squid
-    - c-icap (ICAP Server)
-  - DNS
-    - BIND
-  - IDS/ADS
-    - Snort
-  - L4 Loadbalancer 
-    - ldirectord + ipvsadm
-- Monitoring Tool
-  - Zabbix
-- Chat Tool
-  - Slack
-- Development Tool
-  - Github
-  - Gitlab
-  - Asana
-  - Instagannt
-- Document Tool
-  - Redmine
-  - Notion
-
-### ベンダー機器
-
-- Router
-  - Cisco
-    - Catalyst
-    - Access Point
-  - NEC UNIVERSERGE IX
-  - Juniper (Netscreen/SSG)
-
-- L2SW
-  - Allied Telesis
-  - Sophos (CS210-8FP)
-
-- Server
-  - Dell PowerEdge
-    - iDRAC9
-
-### 言語
-- bash
-  - 経験年数: 2年
-- Google App Script
-  - 経験年数: 0.5年
-  - kintoneのメンテナンス情報をSlackのchannelに通知する処理が実運用で採用された
+| カテゴリ              | 種別          | 経験年数  | レベル |
+|-----------------------|----------------|-----------|------------|
+| プログラミング言語    | bach           | 2年       | - 調べながら作業が可能 |
+|                       | Google App Script | 0.5年 | - 調べながら作業が可能<br> - 実運用で採用実績有り |
+| Linux                 | CentOS        | 6年       | - 設計・構築まで可能 |
+|                       | Ubuntu        | 3年       | - 調べながら構築が可能 |
+| ミドルウェア          | [Shorewall](https://shorewall.org/) <br> (iptables base firewall)      | 6年<br>  | セキュアなゾーンの設計、<br>ファイアウォールルールの策定が可能 |
+|                       | Quagga       | 6年<br> - ルーティングデーモン | - キャリア網とのBGP接続を経験<br> - トラブルシューティングが可能 |
+|                       | strongSwan       | 4年<br> - L2TP/IPsec<br> - IPsec VPN  | 
+|                       | ldirectord (LVS) | 4年<br> - L4ロードバランサー  |
+|                       | BIND       | 2年<br> - キャッシュDNS<br> - 権威DNS  |
+|                       | Snort     | 1年<br> - IDS/ADS |
+|                       | Squid     | 1年<br> - c-icapと連携し、URLフィルタ機能を実装 |
+|  AWS   |  Amazon VPC | 3年　| 一通りの機能は把握できている |
+|     |  Amazon Site to Site VPN | 3年　| 一通りの機能は把握できている |
+| Azure           |  Azure VPN Gateway ([Classic](https://docs.microsoft.com/ja-jp/azure/vpn-gateway/design#s2smulti))     | 1年   | 調べながら作業が可能 |
+| モニタリング          | Zabbix         | 3年 | 1通りの機能は把握できている |
+| ソースコード管理      | Github | 5年  | 調べながら作業可能 |
+|                       | Gitlab | 5年  | 調べながら作業可能 |
+| ベンダー機器          | Cisco         | 4年  | 自宅内で運用経験有り<br> - Router<br>  - Catalyst <br> - Access Point |
+|                       | Allied Telesis | 5年<br> - L2SW | - 基本設定は理解 |
+|                       | NEC         | 3年 (自宅運用) | 自宅内で運用経験有り<br> - UNIVERSERGE IX |
+|                       | Sophos      | 0.5年 <br> - L2SW (CS210-8FP) | 調べながら作業が可能 |
+|                       | Dell (Server)       | 0.5年 <br> - Dell PowerEdge <br> - iDRAC9 | 調べながら構築可能 | 
+| ドキュメントツール    | Redmine       | 4年       | 一通りの機能は理解している |
+|                       | Notion        | 2年       |  一通りの機能は理解している |
 
 <!--
-- Honeypot
-GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie」を運用中。
+Google App Script: kintoneのメンテナンス情報をSlack channelに通知する処理が実運用で採用された
 -->
 
 <!--## Language
