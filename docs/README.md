@@ -5,7 +5,7 @@
 |key|value|
 |---|-----|
 |名前| 山田涼(Ryo Yamada) |
-|生年月日| 1995/10/20 |
+|生年月日| 1995年10月20日 |
 |居住地| 東京都 |
 |最終学歴| 明治学院大学 法学部法律学科 |
 
@@ -19,7 +19,7 @@
 ## 得意なスキル・活かせる能力
 
 - ミドルウェアを用いたネットワーク構築
-   - リモートVPN実装 (L2TP/IPsec, SSL-VPN)
+   - リモートVPN実装
    - eBGPを使用した顧客側NWとキャリア網の接続・経路制御
 - 検証業務を数多くこなしてきた関係で、新しい分野で手を動かすことに抵抗がない
 - パブリッククラウド (AWS)
@@ -39,9 +39,10 @@
 |----------------------------------------|
 |事業内容: マネージド・セキュリティサービス（MSS）事業<br> 資本金: 7億5000万円（2024年2月末時点）<br> 従業員数: 88人 |
   
-職種： ネットワーク・インフラエンジニア
+職種： インフラエンジニア
 
 ### AWS Site to Site VPN 技術検証
+
 | 項目 | 内容 |
 |------|------|
 | 期間 | 2023年4月 ~ 2023年6月 |
@@ -51,14 +52,16 @@
 | 利用技術 | AWS Site-to-Site VPN, strongSwan, Quagga (BGP) |
 
 ### UTM機器 納品業務 (NOC立ち上げ)
+
 | 項目 | 内容 |
 |------|------|
 | 期間 | 2021年1月 ~ 2023年6月 |
 | 役割 | チームリーダー |
 | チーム規模 | 5名 |
-| 担当業務 | - 開通時の試験項目の改善<br> - 属人化していた業務を運用フローとして策定<br> - 担当営業と顧客通信要件の確認<br> - プロファイルシートに沿った、UTM機器設定<br> - 通信不可事象時のトラブルシューティング |
+| 担当業務 | - 開通時の試験項目の改善<br> - 属人化していた運用ナレッジをフローとして策定<br> - 担当営業と顧客通信要件の確認<br> - プロファイルシートに沿った、UTM機器設定<br> - 通信不可事象時のトラブルシューティング |
 
 ### UTM機器 設定効率化
+
 | 項目 | 内容 |
 |------|------|
 | 期間 | 2019年3月 ~ 2019年10月 |
@@ -67,7 +70,8 @@
 | 担当業務 | - kintone のアプリ実装・テスト (認証の管理)<br> - 実機を使用したシェルスクリプトのテスト<br> - Gitlab に上がったバグの修正<br> - プロジェクト全体のスケジュール管理 |
 | 利用技術 | kintone, Bash, Gitlab, Asana + Instagannt |
 
-### JPIX v6プラス 技術検証  
+### JPIX v6プラス 技術検証
+
 | 項目 | 内容 |
 |------|------|
 | 期間 | 2018年10月 ~ 2018年11月 |
@@ -85,7 +89,7 @@
 
 | カテゴリ              | 種別          | 経験年数  | レベル |
 |-----------------------|----------------|-----------|------------|
-| プログラミング言語    | bach           | 2年       | - 調べながら作業が可能 |
+| プログラミング言語    | Bash           | 2年       | - 調べながら作業が可能<br> - POSIX準拠を意識した開発が可能 |
 |                       | Google App Script | 0.5年 | - 調べながら作業が可能<br> - 実運用で採用実績有り |
 | Linux                 | CentOS        | 6年       | - 設計・構築まで可能 |
 |                       | Ubuntu        | 3年       | - 調べながら構築が可能 |
@@ -97,6 +101,7 @@
 |                       | BIND       | 2年<br>  | - キャッシュ、権威DNSの運用を経験 |
 |                       | Pacemaker       | 1年<br>  | - 調べながら構築可能 |
 |                       | Squid     | 1年 | - c-icapと連携し、URLフィルタ機能を実装<br> - 調べながら構築が可能 |
+| RAID   | Linux Software RAID | 0.5年 | - RAID1構築経験有り<br> - mdadmによるRAIDアレイの操作が一通り可能 |
 |  AWS   |  Amazon VPC | 3年　| 一通りの機能は把握できている |
 |     |  Amazon Site to Site VPN | 3年　| 一通りの機能は把握できている |
 | Azure           |  Azure VPN Gateway ([Classic](https://docs.microsoft.com/ja-jp/azure/vpn-gateway/design#s2smulti))     | 1年   | 調べながら作業が可能 |
@@ -130,12 +135,12 @@ Google App Script: kintoneのメンテナンス情報をSlack channelに通知�
 
 | 取得日 | 資格名称 | 認定証リンク |
 | :-----: | ------- | :--------: |
-| 2024/04 | Google Cloud Associate Cloud Engineer | [認定証](https://www.credly.com/badges/a948aa9a-00d3-4c27-9423-c9824aa6f32a/linked_in_profile) |
-| 2023/12 | LPI Security Essentials 020-100 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/3txgcdaec8) |
-| 2022/01 | AWS Certified Cloud Practitioner | [認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url) |
-| 2020/12 | AZ-900: Microsoft Azure Fundamentals | [認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile) |
-| 2020/03 | LPIC Level1 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy) |
-| 2019/05 | IPA 情報セキュリティマネジメント 合格 ||
+| 2024年4月 | Google Cloud Associate Cloud Engineer | [認定証](https://www.credly.com/badges/a948aa9a-00d3-4c27-9423-c9824aa6f32a/linked_in_profile) |
+| 2023年12月 | LPI Security Essentials 020-100 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/3txgcdaec8) |
+| 2022年1月 | AWS Certified Cloud Practitioner | [認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url) |
+| 2020年12月 | AZ-900: Microsoft Azure Fundamentals | [認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile) |
+| 2020年3月 | LPIC Level1 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy) |
+| 2019年5月 | IPA 情報セキュリティマネジメント 合格 ||
 
 ### Coursera 修了コース
 
