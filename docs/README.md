@@ -4,144 +4,32 @@
 
 |key|value|
 |---|-----|
-|Name| 山田涼(Ryo Yamada) |
+|名前| 山田涼(Ryo Yamada) |
 |生年月日| 1995/10/20 |
 |居住地| 東京都 |
 |最終学歴| 明治学院大学 法学部法律学科 |
 
 
-## Blog
-[![Blog URL](https://img.shields.io/badge/Plug%20me%20in-%23E9E5E3.svg?&style=flat-square&logo=astro&logoColor=black)](https://blog.da8ma.com/)
+## 職歴概要・要約
+ネットワークセキュリティを主軸する会社で６年に渡り、インフラエンジニアとして従事してきました。<br>
 
-<!--## LAPRAS-->
-<!--START_SECTION:lapras-card-->
-<!--END_SECTION:lapras-card-->
 
-## 各種アカウント
-[![Github URL](https://img.shields.io/badge/Ryo%20Yamada%20-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/da8ma)
-[![Twitter URL](https://img.shields.io/badge/@da8ma2017-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/da8ma2017)
-[![LinkedIn URL](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryo-y-ethernet/)
+## 得意なスキル・活かせる能力
 
-## 保有資格
-
-- 2024/04 Google Cloud Associate Cloud Engineer ([認定証](https://www.credly.com/badges/a948aa9a-00d3-4c27-9423-c9824aa6f32a/linked_in_profile))
-- 2023/12 LPI Security Essentials 020-100 ([認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/3txgcdaec8))
-- 2022/01 AWS Certified Cloud Practitioner ([認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url))
-- 2020/12 AZ-900: Microsoft Azure Fundamentals ([認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile))
-- 2020/03 LPIC level 1 ([認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy))
-- 2019/05 情報セキュリティマネジメント 取得
-
-### 補足
-
-- 2019/08 Cousera「Google Cloud Platform Fundamentals: Core Infrastructure 日本語版」修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ))
-- 2019/10 Cousera「Essential Cloud Infrastructure: Foundation 日本語版」修了 ([修了証](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9))
-
-<!---
-### Framework
-
-- Ruby on Rails
-- Laravel
-- Spring Boot
-- などなど
--->
-
-## 技術スタック
-
-<!--
-- 言語やフレームワークに限らないスキル。開発手法やプロセス、ツールなど
--->
-
-- TCP/IP
-- OS
-  - CentOS
-  - Ubuntu
-
-- Middleware
-  - Firewall (zone based firewall)
-    - [Shorewall](http://shorewall.org/) (iptables base firewall)
-  - routing
-    - Quagga (BGP)
-  - Remote Access VPN
-    - L2TP over IPsec
-      - xl2tpd
-      - strongSwan (ikev1)
-    - IPsec VPN
-       - strongSwan (ikev2)
-  - Site to Site VPN
-    - OpenVPN (L2/L3VPN)
-  - AWS VPN
-    - strongSwan
-    - Quagga (eBGP)
-  - Azure VPN Gateway ([Classic](https://docs.microsoft.com/ja-jp/azure/vpn-gateway/design#s2smulti))
-    - strongSwan
-  - Proxy
-    - Squid
-    - c-icap (ICAP Server)
-  - DNS
-    - BIND
-  - IDS/ADS
-    - Snort
-  - L4 Loadbalancer 
-    - ldirectord + ipvsadm
-- Monitoring Tool
-  - Zabbix
-- Chat Tool
-  - Slack
-- Development Tool
-  - Github
-  - Gitlab
-  - Asana
-  - Instagannt
-- Document Tool
-  - Redmine
-  - Notion
-
-### ベンダー機器
-
-- Router
-  - Cisco
-    - Catalyst
-    - Access Point
-  - NEC UNIVERSERGE IX
-  - Juniper (Netscreen/SSG)
-
-- L2SW
-  - Allied Telesis
-  - Sophos (CS210-8FP)
-
-- Server
-  - Dell PowerEdge
-    - iDRAC9
-
-### 言語
-- Python3
-- Bash
-
-<!--
-- Honeypot
-GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie」を運用中。
--->
-
-<!--## Language
-
-- 日本語
-  - ネイティブ
-- 英語
-  - かんたんな日常会話ができる
-  - TOEIC: xxx点
--->
-
-## 強み
-
-* ミドルウェアを用いた NW 構築が得意
-* 検証業務を多くこなしてきた関係で、新しい分野でも手を動かすことに抵抗がない
+- ミドルウェアを用いたネットワーク構築
+   - リモートVPN実装 (L2TP/IPsec, SSL-VPN)
+   - eBGPを使用した顧客側NWとキャリア網の接続・経路制御
+- 検証業務を数多くこなしてきた関係で、新しい分野で手を動かすことに抵抗がない
+- パブリッククラウド (AWS)
+  - AWS VPN gatewayを用いたハイブリッドクラウド構成
 
 
 ## やったことはないが興味があるもの
 
-- クラウド環境を用いた Network 構築
-- Ansible、Terraform を使用した構成管理（インフラコード）
+- Ansible、Terraform を使用した構成管理 (IaC)
 - Docker, k8s などのコンテナを使用した本番環境へのデプロイ
+- オブザーバビリティを意識した
+- 組織のセキュリティ向上を目的としたツールの構築/実装 (SIEM, SSO)
 
 ## 職務経歴詳細
 
@@ -185,6 +73,85 @@ GCP上(GCE + Stackdriver logging + Big query)で  「WOWHoneypot」と「Cowrie�
 
 **参考リンク** <br>
 https://www.jpne.co.jp/service/v6plus/
+
+
+## スキルセット
+
+<!--
+- 言語やフレームワークに限らないスキル。開発手法やプロセス、ツールなど
+-->
+
+| カテゴリ              | 種別          | 経験年数  | レベル |
+|-----------------------|----------------|-----------|------------|
+| プログラミング言語    | bach           | 2年       | - 調べながら作業が可能 |
+|                       | Google App Script | 0.5年 | - 調べながら作業が可能<br> - 実運用で採用実績有り |
+| Linux                 | CentOS        | 6年       | - 設計・構築まで可能 |
+|                       | Ubuntu        | 3年       | - 調べながら構築が可能 |
+| ミドルウェア          | [Shorewall](https://shorewall.org/) <br> (iptables base firewall)      | 6年<br>  | セキュアなゾーンの設計、<br>ファイアウォールルールの策定が可能 |
+|                       | Quagga       | 6年<br> - ルーティングデーモン | - キャリア網とのBGP接続を経験<br> - トラブルシューティングが可能 |
+|                       | strongSwan       | 4年<br> - L2TP/IPsec<br> - IPsec VPN  | 
+|                       | ldirectord (LVS) | 4年<br> - L4ロードバランサー  |
+|                       | BIND       | 2年<br> - キャッシュDNS<br> - 権威DNS  |
+|                       | Snort     | 1年<br> - IDS/ADS |
+|                       | Squid     | 1年<br> - c-icapと連携し、URLフィルタ機能を実装 |
+|  AWS   |  Amazon VPC | 3年　| 一通りの機能は把握できている |
+|     |  Amazon Site to Site VPN | 3年　| 一通りの機能は把握できている |
+| Azure           |  Azure VPN Gateway ([Classic](https://docs.microsoft.com/ja-jp/azure/vpn-gateway/design#s2smulti))     | 1年   | 調べながら作業が可能 |
+| モニタリング          | Zabbix         | 3年 | 1通りの機能は把握できている |
+| ソースコード管理      | Github | 5年  | 調べながら作業可能 |
+|                       | Gitlab | 5年  | 調べながら作業可能 |
+| ベンダー機器          | Cisco         | 4年  | 自宅内で運用経験有り<br> - Router<br>  - Catalyst <br> - Access Point |
+|                       | Allied Telesis | 5年<br> - L2SW | - 基本設定は理解 |
+|                       | NEC         | 3年 (自宅運用) | 自宅内で運用経験有り<br> - UNIVERSERGE IX |
+|                       | Sophos      | 0.5年 <br> - L2SW (CS210-8FP) | 調べながら作業が可能 |
+|                       | Dell (Server)       | 0.5年 <br> - Dell PowerEdge <br> - iDRAC9 | 調べながら構築可能 | 
+| ドキュメントツール    | Redmine       | 4年       | 一通りの機能は理解している |
+|                       | Notion        | 2年       |  一通りの機能は理解している |
+
+<!--
+Google App Script: kintoneのメンテナンス情報をSlack channelに通知する処理が実運用で採用された
+-->
+
+<!--## Language
+
+- 日本語
+  - ネイティブ
+- 英語
+  - かんたんな日常会話ができる
+  - TOEIC: xxx点
+-->
+
+
+
+## 保有資格
+
+| 取得日 | 資格名称 | 認定証リンク |
+| :-----: | ------- | :--------: |
+| 2024/04 | Google Cloud Associate Cloud Engineer | [認定証](https://www.credly.com/badges/a948aa9a-00d3-4c27-9423-c9824aa6f32a/linked_in_profile) |
+| 2023/12 | LPI Security Essentials 020-100 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/3txgcdaec8) |
+| 2022/01 | AWS Certified Cloud Practitioner | [認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url) |
+| 2020/12 | AZ-900: Microsoft Azure Fundamentals | [認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile) |
+| 2020/03 | LPIC Level1 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy) |
+| 2019/05 | IPA 情報セキュリティマネジメント 合格 ||
+
+### Coursera 修了証
+
+| 取得日 | コース名称 | 修了証リンク |
+| :-----: | :------- | :-----------: |
+| 2019/10 | Essential Cloud Infrastructure: Foundation<br> 日本語版 | [修了証](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9) |
+| 2019/08 | Google Cloud Platform Fundamentals: Core Infrastructure<br> 日本語版 | [修了証](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ) |
+
+## Blog
+[![Blog URL](https://img.shields.io/badge/Plug%20me%20in-%23E9E5E3.svg?&style=flat-square&logo=astro&logoColor=black)](https://blog.da8ma.com/)
+
+<!--## LAPRAS-->
+<!--START_SECTION:lapras-card-->
+<!--END_SECTION:lapras-card-->
+
+## 各種アカウント
+[![Github URL](https://img.shields.io/badge/Ryo%20Yamada%20-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/da8ma)
+[![Twitter URL](https://img.shields.io/badge/@da8ma2017-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/da8ma2017)
+[![LinkedIn URL](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryo-y-ethernet/)
 
 <!---
 ## 課外活動
