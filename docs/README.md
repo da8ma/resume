@@ -1,3 +1,39 @@
+---
+pdf_options:
+  format: a4
+  margin: 20mm 20mm
+  printBackground: true
+  headerTemplate: |-
+    <style>
+      section {
+        margin: 5mm 15mm;
+        font-family: system-ui;
+        font-size: 10px;
+        color: silver;
+      }
+    </style>
+    <section>
+      <span class="title"></span>
+      <span class="date"></span>
+    </section>
+  footerTemplate: |-
+    <section style="margin: 0 auto;">
+      <div>
+        Page <span class="pageNumber"></span>
+        of <span class="totalPages"></span>
+      </div>
+    </section>
+stylesheet: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.6.1/github-markdown.min.css
+body_class: markdown-body
+css: |-
+  .page-break { page-break-after: always; }
+  .markdown-body { font-size: 16px; }
+  .markdown-body pre > code { white-space: pre-wrap; }
+  .markdown-body pre { background: #eee; }
+  .markdown-body pre { padding: 5px; }
+---
+
+
 # 職務経歴書
 
 ## 基本情報
@@ -26,12 +62,13 @@
   - AWS VPN gatewayを用いたハイブリッドクラウド構成
 
 
-## やったことはないが興味があるもの
+<!--## やったことはないが興味があるもの
 
 - Ansible、Terraform を使用した構成管理 (IaC)
 - Docker, k8s などのコンテナを使用した本番環境へのデプロイ
 - オブザーバビリティを考慮したモニタリングの強化
 - 組織のセキュリティ向上を目的としたツールの構築/実装 (SIEM, SSO)
+--->
 
 ## 職務経歴詳細
 
@@ -40,6 +77,8 @@
 |事業内容: マネージド・セキュリティサービス（MSS）事業<br> 資本金: 7億5000万円（2024年2月末時点）<br> 従業員数: 88人 |
   
 職種： インフラエンジニア
+
+<!-- <div class="page-break"></div>-->
 
 ### AWS Site to Site VPN 技術検証
 
@@ -69,6 +108,8 @@
 | チーム規模 | 3名(外部委託メンバー含む)  |
 | 担当業務 | - kintone のアプリ実装・テスト (認証の管理)<br> - 実機を使用したシェルスクリプトのテスト<br> - Gitlab に上がったバグの修正<br> - プロジェクト全体のスケジュール管理 |
 | 利用技術 | kintone, Bash, Gitlab, Asana + Instagannt |
+
+<!-- <div class="page-break"></div>-->
 
 ### JPIX v6プラス 技術検証
 
@@ -130,7 +171,6 @@ Google App Script: kintoneのメンテナンス情報をSlack channelに通知�
 -->
 
 
-
 ## 保有資格
 
 | 取得日 | 資格名称 | 認定証リンク |
@@ -141,6 +181,8 @@ Google App Script: kintoneのメンテナンス情報をSlack channelに通知�
 | 2020年12月 | AZ-900: Microsoft Azure Fundamentals | [認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile) |
 | 2020年3月 | LPIC Level1 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy) |
 | 2019年5月 | IPA 情報セキュリティマネジメント 合格 ||
+
+<!-- <div class="page-break"></div>-->
 
 ### Coursera 修了コース
 
@@ -158,8 +200,8 @@ Google App Script: kintoneのメンテナンス情報をSlack channelに通知�
 
 ## 各種アカウント
 [![Github URL](https://img.shields.io/badge/Ryo%20Yamada%20-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/da8ma)
-[![Twitter URL](https://img.shields.io/badge/@da8ma2017-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/da8ma2017)
 [![LinkedIn URL](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryo-y-ethernet/)
+[![Twitter URL](https://img.shields.io/badge/@da8ma2017-%23000000.svg?&style=flat-square&logo=X&logoColor=white)](https://twitter.com/da8ma2017)
 
 <!---
 ## 課外活動
