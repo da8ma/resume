@@ -1,39 +1,3 @@
----
-pdf_options:
-  format: a4
-  margin: 20mm 20mm
-  printBackground: true
-  headerTemplate: |-
-    <style>
-      section {
-        margin: 5mm 15mm;
-        font-family: system-ui;
-        font-size: 10px;
-        color: silver;
-      }
-    </style>
-    <section>
-      <span class="title"></span>
-      <span class="date"></span>
-    </section>
-  footerTemplate: |-
-    <section style="margin: 0 auto;">
-      <div>
-        Page <span class="pageNumber"></span>
-        of <span class="totalPages"></span>
-      </div>
-    </section>
-stylesheet: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.6.1/github-markdown.min.css
-body_class: markdown-body
-css: |-
-  .page-break { page-break-after: always; }
-  .markdown-body { font-size: 16px; }
-  .markdown-body pre > code { white-space: pre-wrap; }
-  .markdown-body pre { background: #eee; }
-  .markdown-body pre { padding: 5px; }
----
-
-
 # 職務経歴書
 
 ## 基本情報
@@ -121,6 +85,7 @@ css: |-
 | 担当業務 | - 検証環境構築、設定投入を担当<br> - 検証項目やスケジュールの作成<br>  |
 | 利用技術 | IPIP tunnel(IPv4 over IPv6), IPv6 |
 
+<div class="page-break"></div>
 
 ## スキルセット
 
