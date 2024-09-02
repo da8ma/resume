@@ -140,10 +140,10 @@ Google App Script: kintoneのメンテナンス情報をSlack channelに通知�
 
 | 取得日 | 資格名称 | 認定証リンク |
 | :-----: | ------- | :--------: |
-| 2024年4月 | Google Cloud Associate Cloud Engineer | [認定証](https://www.credly.com/badges/a948aa9a-00d3-4c27-9423-c9824aa6f32a/linked_in_profile) |
+| 2024年4月 | Google Cloud Associate Cloud Engineer | [認定証](https://www.credly.com/badges/a48a80d1-b579-4d13-896a-9d742b22fa99/public_url) |
 | 2023年12月 | LPI Security Essentials 020-100 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/3txgcdaec8) |
 | 2022年1月 | AWS Certified Cloud Practitioner | [認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url) |
-| 2020年12月 | AZ-900: Microsoft Azure Fundamentals | [認定証](https://www.youracclaim.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde?source=linked_in_profile) |
+| 2020年12月 | AZ-900: Microsoft Azure Fundamentals | [認定証](https://www.credly.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde/public_url) |
 | 2020年3月 | LPIC Level1 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy) |
 | 2019年5月 | IPA 情報セキュリティマネジメント 合格 ||
 
@@ -164,9 +164,10 @@ Google App Script: kintoneのメンテナンス情報をSlack channelに通知�
 <!--END_SECTION:lapras-card-->
 
 ## 各種アカウント
-[![Github URL](https://img.shields.io/badge/Ryo%20Yamada%20-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/da8ma)
+[![Github URL](https://img.shields.io/badge/Ryo%20Yamada%20-%2312100E.svg?&style=&logo=Github&logoColor=white)](https://github.com/da8ma)
 [![LinkedIn URL](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryo-y-ethernet/)
-[![Twitter URL](https://img.shields.io/badge/@da8ma2017-%23000000.svg?&style=flat-square&logo=X&logoColor=white)](https://twitter.com/da8ma2017)
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=%20%40da8ma2017)](https://x.com/da8ma2017)
+
 
 <!---
 ## 課外活動
