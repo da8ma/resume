@@ -1,18 +1,25 @@
-name: create issue
+name: Create Resume Update Issue
 
 on:
   schedule:
     - cron: '0 0 1 */3 *'
   workflow_dispatch:
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
-  build:
-    name: create issue
+  create-issue:
+    name: Create Resume Update Issue
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: JasonEtco/create-an-issue@v2
-        with:
-          template: ".github/ISSUE_TEMPLATE/01-update-resume.md"
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Create Issue
+        uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: .github/ISSUE_TEMPLATE/01-update-resume.yml
