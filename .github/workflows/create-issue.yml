@@ -1,4 +1,4 @@
-name: create issue
+name: Create Resume Update Issue
 
 on:
   schedule:
@@ -10,13 +10,16 @@ permissions:
   issues: write
 
 jobs:
-  build:
-    name: create issue
+  create-issue:
+    name: Create Resume Update Issue
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: JasonEtco/create-an-issue@v2
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Create Issue
+        uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          template: ".github/ISSUE_TEMPLATE/01-update-resume.yaml"
+          filename: .github/ISSUE_TEMPLATE/01-update-resume.yml
