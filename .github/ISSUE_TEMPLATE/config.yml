@@ -1,7 +1,0 @@
-blank_issues_enabled: false # 空のIssueを作成するオプションを無効化
-issue_templates:
-  - name: '経歴書 定期更新'
-    description: '4半期に一度、経歴書の更新を通知するテンプレート'
-    labels: [documentation]
-    assignees: '@me'
-    file: 01-update-resume.md
