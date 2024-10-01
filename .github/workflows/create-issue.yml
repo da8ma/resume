@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: JasonEtco/create-an-issue@v2
-        with:
-          template: ".github/ISSUE_TEMPLATE/01-update-resume.md"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          template: ".github/ISSUE_TEMPLATE/01-update-resume.yaml"
