@@ -1,4 +1,4 @@
-Copyname: Update your resume
+name: Update your resume
 about: Quarterly resume update reminder
 title: "Please update your resume [{{ date | date('YYYY/MM/DD') }}]"
 labels:
