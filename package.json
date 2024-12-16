@@ -1,36 +1,53 @@
 {
-  "name": "Curriculum-Vitae",
+  "name": "resume",
   "version": "1.0.0",
-  "description": "ryo-yamadaの職務経歴書",
+  "description": "ryoyamadaの職務経歴書",
+  "license": "MIT",
+  "type": "module",
   "scripts": {
     "lint": "textlint docs/README.md",
-    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
+    "build:pdf": "node build-pdf.js"
   },
-  "main": "index.js",
-  "repository": "https://github.com/da8ma/resume.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/da8ma/resume.git"
+  },
+  "keywords": [],
   "author": "Ryo Yamada <ryo.8mada1020@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.1",
-    "husky": "^9.0.11",
-    "md-to-pdf": "^5.2.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.40",
+    "sass": "^1.77.8",
     "textlint": "^14.0.4",
     "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-filter-rule-whitelist": "^2.0.0",
     "textlint-rule-abbr-within-parentheses": "^1.0.2",
     "textlint-rule-footnote-order": "^1.0.3",
     "textlint-rule-general-novel-style-ja": "^1.3.0",
-    "textlint-rule-ja-hiragana-fukushi": "^1.2.0",
-    "textlint-rule-ja-hiragana-hojodoushi": "^1.0.4",
-    "textlint-rule-ja-hiragana-keishikimeishi": "^1.0.2",
+    "textlint-rule-ja-hiragana-fukushi": "^1.3.0",
+    "textlint-rule-ja-hiragana-hojodoushi": "^1.1.0",
+    "textlint-rule-ja-hiragana-keishikimeishi": "^1.1.0",
     "textlint-rule-ja-unnatural-alphabet": "^2.0.1",
     "textlint-rule-ng-word": "^1.0.0",
     "textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet": "^1.0.1",
     "textlint-rule-period-in-list-item": "^1.0.1",
     "textlint-rule-prefer-tari-tari": "^1.0.3",
-    "textlint-rule-preset-ja-spacing": "^2.0.2",
+    "textlint-rule-preset-ja-spacing": "^2.4.3",
     "textlint-rule-preset-ja-technical-writing": "^10.0.1",
-    "textlint-rule-preset-jtf-style": "^2.3.4",
+    "textlint-rule-preset-jtf-style": "^2.3.14",
     "textlint-rule-prh": "^6.0.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  },
+  "engines": {
+    "node": "23.x"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.11.0",
+    "devicon": "^2.16.0",
+    "marked": "^15.0.4",
+    "ofetch": "^1.3.4",
+    "open-graph-scraper": "^6.7.2",
+    "puppeteer": "^23.10.4"
   }
 }
