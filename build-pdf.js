@@ -69,6 +69,14 @@ const outputFile = './docs/職務経歴書.pdf'; // 出力するPDFファイル
           background-color: #f4f4f4;
           font-weight: bold;
         }
+        a {
+          color: #007ACC; /* リンクの色 */
+          text-decoration: underline; /* 下線を追加 */
+          font-weight: bold; /* リンクテキストを強調 */
+        }
+        a:hover {
+          color: #005F8C; /* マウスオーバー時の色 (ブラウザ確認用) */
+        }
       </style>
     </head>
     <body>
@@ -88,7 +96,8 @@ const outputFile = './docs/職務経歴書.pdf'; // 出力するPDFファイル
     await page.pdf({
       path: outputFile,
       format: 'A4',
-      printBackground: true,
+      printBackground: true, // 背景色を有効に
+      displayHeaderFooter: false, // ヘッダーとフッターを非表示
     });
 
     await browser.close();
