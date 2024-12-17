@@ -23,4 +23,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           filename: .github/ISSUE_TEMPLATE/01-update-resume.yml
-          title: "Reminder: Update your resume for this quarter"

@@ -1,7 +1,8 @@
-name: Update Resume Reminder
+name: "Update Resume Reminder"
 title: "Reminder: Update your resume for this quarter"
-description: "This is a friendly reminder to review and update your resume for the current quarter."
+description: "This issue is automatically created every quarter to remind you to update your resume."
 labels: ["resume", "reminder"]
+
 body:
   - type: markdown
     attributes:
@@ -10,6 +11,7 @@ body:
 
         It's time to review your professional achievements and update your resume to reflect your latest work and progress.
 
+        ### Checklist:
         - [ ] Review recent projects or accomplishments
         - [ ] Add new skills or certifications
         - [ ] Update your job history if necessary
