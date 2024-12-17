@@ -28,8 +28,20 @@ jobs:
           if [ "$ISSUE_EXISTS" -eq 0 ]; then
             gh issue create \
               --title "Reminder: Update your resume for this quarter" \
-              --body "## 📄 Time to update your resume!\n\nIt's time to review your professional achievements and update your resume to reflect your latest work and progress.\n\n### Checklist:\n- [ ] Review recent projects or accomplishments\n- [ ] Add new skills or certifications\n- [ ] Update your job history if necessary\n\nStay ahead of the curve! 🚀" \
-              --label "resume,reminder"
+              --label "resume,reminder" \
+              --assignee "${GITHUB_ACTOR}" \
+              --body <<EOF
+              ## 📄 Time to update your resume!
+
+              It's time to review your professional achievements and update your resume to reflect your latest work and progress.
+
+              ### Checklist:
+              - [ ] Review recent projects or accomplishments
+              - [ ] Add new skills or certifications
+              - [ ] Update your job history if necessary
+
+              Stay ahead of the curve! 🚀
+              EOF
             echo "✅ Issue created successfully."
           else
             echo "⚠️ Issue already exists. Skipping creation."
