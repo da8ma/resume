@@ -32,11 +32,22 @@ jobs:
       - name: Generate PDF
         run: yarn build:pdf
       
-      # 日付のみを取得
-      - name: Add date to PDF name
-        id: date
+      # PDFファイルをリネーム
+      - name: Rename PDF File
+        id: rename
         run: |
-          echo "DATE=$(date +'%Y%m%d')" >> "$GITHUB_OUTPUT"
+          DATE=$(date +'%Y%m%d')
+          mv ./docs/職務経歴書.pdf ./docs/resume_${DATE}.pdf
+          echo "DATE=${DATE}" >> "$GITHUB_OUTPUT"
+
+      # PDF生成後、ファイルの存在確認
+      - name: Debug PDF File
+        run: |
+          ls -l ./docs
+          if [ ! -f "./docs/resume_${{ steps.rename.outputs.DATE }}.pdf" ]; then
+            echo "Error: Renamed PDF file not found!"
+            exit 1
+          fi
 
       # GitHub Releaseの作成
       - name: Create Release
@@ -51,4 +62,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release upload "${{ github.ref_name }}" ./docs/resume_${{ steps.date.outputs.DATE }}.pdf --clobber
+          gh release upload "${{ github.ref_name }}" ./docs/resume_${{ steps.rename.outputs.DATE }}.pdf --clobber
