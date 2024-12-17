@@ -13,13 +13,24 @@ jobs:
   create-issue:
     name: Create Resume Update Issue
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
-      - name: Create Issue
-        uses: JasonEtco/create-an-issue@v2
+
+      - name: Create Issue with GitHub CLI
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          filename: .github/ISSUE_TEMPLATE/01-update-resume.yml
+        run: |
+          # Check if an issue with the same title already exists
+          ISSUE_EXISTS=$(gh issue list --state open --search "Reminder: Update your resume for this quarter" --json title --jq '. | length')
+
+          if [ "$ISSUE_EXISTS" -eq 0 ]; then
+            gh issue create \
+              --title "Reminder: Update your resume for this quarter" \
+              --body "## 📄 Time to update your resume!\n\nIt's time to review your professional achievements and update your resume to reflect your latest work and progress.\n\n### Checklist:\n- [ ] Review recent projects or accomplishments\n- [ ] Add new skills or certifications\n- [ ] Update your job history if necessary\n\nStay ahead of the curve! 🚀" \
+              --label "resume,reminder"
+            echo "✅ Issue created successfully."
+          else
+            echo "⚠️ Issue already exists. Skipping creation."
+          fi
