@@ -2,7 +2,7 @@ name: Create Resume Update Issue
 
 on:
   schedule:
-    - cron: '0 0 1 */3 *'
+    - cron: '0 15 1 */3 *' # 日本時間午前0時 (JST)
   workflow_dispatch:
 
 permissions:
@@ -13,13 +13,24 @@ jobs:
   create-issue:
     name: Create Resume Update Issue
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
-      - name: Create Issue
-        uses: JasonEtco/create-an-issue@v2
+
+      - name: Create Issue with GitHub CLI
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          filename: .github/ISSUE_TEMPLATE/01-update-resume.yml
+        run: |
+          # Check if an issue with the same title already exists
+          ISSUE_EXISTS=$(gh issue list --state open --search "Reminder: Update your resume for this quarter" --json title --jq '. | length')
+
+          if [ "$ISSUE_EXISTS" -eq 0 ]; then
+            gh issue create \
+              --title "Reminder: Update your resume for this quarter" \
+              --label "resume,reminder" \
+              --assignee "${GITHUB_ACTOR}" \
+              --body-file ".github/ISSUE_TEMPLATE/01-resume-update.md"
+          else
+            echo "⚠️ Issue already exists. Skipping creation."
+          fi
