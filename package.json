@@ -18,7 +18,6 @@
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.1",
     "textlint": "^14.0.4",
     "textlint-filter-rule-comments": "^1.2.2",
-    "textlint-filter-rule-whitelist": "^2.0.0",
     "textlint-rule-abbr-within-parentheses": "^1.0.2",
     "textlint-rule-footnote-order": "^1.0.3",
     "textlint-rule-general-novel-style-ja": "^1.3.0",
@@ -42,9 +41,11 @@
   "dependencies": {
     "@vueuse/core": "^10.11.0",
     "devicon": "^2.16.0",
+    "install": "^0.13.0",
     "marked": "^15.0.4",
     "ofetch": "^1.3.4",
     "open-graph-scraper": "^6.7.2",
-    "puppeteer": "^23.10.4"
+    "puppeteer": "^23.10.4",
+    "textlint-filter-rule-allowlist": "^4.0.0"
   }
 }
