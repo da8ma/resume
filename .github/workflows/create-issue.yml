@@ -30,7 +30,7 @@ jobs:
               --title "Reminder: Update your resume for this quarter" \
               --label "resume,reminder" \
               --assignee "${GITHUB_ACTOR}" \
-              --body-file ".github/ISSUE_TEMPLATE/resume-update.md"
+              --body-file ".github/ISSUE_TEMPLATE/01-resume-update.md"
           else
             echo "⚠️ Issue already exists. Skipping creation."
           fi
