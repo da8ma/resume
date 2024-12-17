@@ -16,9 +16,6 @@
   "author": "Ryo Yamada <ryo.8mada1020@gmail.com>",
   "devDependencies": {
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.1",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.40",
-    "sass": "^1.77.8",
     "textlint": "^14.0.4",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-filter-rule-whitelist": "^2.0.0",
