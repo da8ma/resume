@@ -30,18 +30,16 @@ jobs:
               --title "Reminder: Update your resume for this quarter" \
               --label "resume,reminder" \
               --assignee "${GITHUB_ACTOR}" \
-              --body <<EOF
-## 📄 Time to update your resume!
+              --body "## 📄 Time to update your resume!
 
-It's time to review your professional achievements and update your resume to reflect your latest work and progress.
+              It's time to review your professional achievements and update your resume to reflect your latest work and progress.
 
-### Checklist:
-- [ ] Review recent projects or accomplishments
-- [ ] Add new skills or certifications
-- [ ] Update your job history if necessary
+              ### Checklist:
+              - [ ] Review recent projects or accomplishments
+              - [ ] Add new skills or certifications
+              - [ ] Update your job history if necessary
 
-Stay ahead of the curve! 🚀
-EOF
+              Stay ahead of the curve! 🚀"
             echo "✅ Issue created successfully."
           else
             echo "⚠️ Issue already exists. Skipping creation."
