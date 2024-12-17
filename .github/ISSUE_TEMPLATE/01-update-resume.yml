@@ -1,23 +1,17 @@
-name: Update your resume
-about: Quarterly resume update reminder
-title: "Please update your resume [{{ date | date('YYYY/MM/DD') }}]"
-labels:
-  - enhancement
-  - quarterly-update
-assignees: da8ma
----
-body: |
-  The quarter has ended, and it's time to update your resume.
+name: Update Resume Reminder
+title: "Reminder: Update your resume for this quarter"
+description: "This is a friendly reminder to review and update your resume for the current quarter."
+labels: ["resume", "reminder"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📄 Time to update your resume!
 
-  ## Action Required
-  Please update your resume with your accomplishments from this past quarter.
+        It's time to review your professional achievements and update your resume to reflect your latest work and progress.
 
-  ## Key Points
-  - Review and list your major achievements
-  - Update any new skills or technologies you've learned
-  - Add any new projects or responsibilities you've taken on
+        - [ ] Review recent projects or accomplishments
+        - [ ] Add new skills or certifications
+        - [ ] Update your job history if necessary
 
-  ## Deadline
-  Please complete this update by: {{ date | date('YYYY/MM/DD', '+7 days') }}
-
-  If you have any questions or need assistance, please don't hesitate to ask.
+        Stay ahead of the curve! 🚀
