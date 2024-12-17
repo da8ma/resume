@@ -20,9 +20,6 @@ jobs:
           node-version: '20'
           cache: 'yarn'
 
-      - name: build pdf
-        run: npm run build:pdf
-
       # 日本語フォントをインストール (Puppeteer用)
       - name: Install Japanese Fonts
         run: sudo apt-get install -y fonts-noto-cjk
@@ -33,7 +30,7 @@ jobs:
 
       # MarkdownからPDFを生成
       - name: Generate PDF
-        run: node build-pdf.js
+        run: yarn build:pdf
       
       # 日付のみを取得
       - name: Add date to PDF name
