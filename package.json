@@ -36,7 +36,7 @@
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
   },
   "engines": {
-    "node": "23.x"
+    "node": "22.x"
   },
   "dependencies": {
     "devicon": "^2.16.0",
