@@ -27,45 +27,7 @@
 
 <div style="page-break-after: always;"></div>
 
-## 職務経歴詳細
-
-| 2018年4月 ~ 現在 | バリオセキュア株式会社 |
-|----------------------------------------|-----------------|
-|事業内容: マネージド・セキュリティサービス（MSS）事業<br> 資本金: 7億5000万円（2024年2月末時点）<br> 従業員数: 88人 |　正社員として勤務　|
-  
-職種： インフラエンジニア
-
-### AWS Site to Site VPN 技術検証
-
-| 2023年4月 ~ 2023年6月 | 開発環境 | 規模 | 
-|------|------|------|
-| 【プロジェクト概要】<br>- セキュリティアプライアンスのOS更新プロジェクトにおける技術検証<br><br/>【業務内容】<br>- 通信試験項目の作成・実施<br>- 新OS環境に適した設定手順の策定<br><br/>【実績・取り組み】<br> - 既存フローに存在しないトラブルシューティング項目を策定しNOCの運用改善に貢献<br> | 【AWS】<br> - AWS Site-to-Site VPN<br><br/> 【ミドルウェア】<br> - strongsSwan<br> - Quagga<br> | 3名<br>メンバー |
-
-<div style="page-break-after: always;"></div>
-
-### NOCチーム 新規立ち上げ
-
-| 2021年1月 ~ 2023年6月 | 開発環境 | 規模 | 
-|------|------|------|
-| 【プロジェクト概要】<br>- 自社NOCチームの新規立ち上げ<br><br/>【業務内容】<br>- NOC内の設定開通チームにて、業務フローの改善・メンバーの教育を担当<br> - kintoneアプリの開発<br>- プロファイルシートに沿った、UTM機器設定<br>- BGP接続サービス提供におけるナレッジ作成 <br><br/>【実績・取り組み】<br>- 属人化していたナレッジをファイルサーバー上に集約し、一元管理化 <br> - 紙ベースの納品フローをkintoneに完全移行し、Web上で完結できるようにした<br> - メンバーの教育を担当し、個々のスキルレベルの標準化を推進。これにより、上司から『NOC内でもっとも信頼できるチーム』として高く評価された。 | 【SaaS/PaaS】<br> - kintone<br><br/>【クラウドPBX】<br> - Biztel | 5名<br>チームリーダー |
-
-### Webフィルタリングソリューション ログ転送機能の実装
-
-| 2018年10月 ~ 2019年2月 | 開発環境 | 規模 | 
-|------|------|------|
-| 【プロジェクト概要】<br>- 顧客の規定でWebのアクセスログを半永久的に残す必要があり、提供していたWebフィルタリングソリューションを顧客サーバー上に転送する要件が発生した。<br><br/>【業務内容】<br>- Webフィルタリングシステムのログ転送機能の設計と実装 <br>- ログフォーマットの提供 <br><br/>【実績・取り組み】<br>- 既存のソリューション内で機能が完結するようにし、顧客の『ランニングコストを抑えたい』という要望を達成した <br>- 2台のソリューションのログを転送するため、送信時に機器のホスト名とタイムスタンプを付与しファイル名の重複を避けるようにした | - bash<br> - scp (SSH File Transfer Protocol) | 2名<br>メンバー |
-
-
-### JPIX v6プラス 技術検証
-
-| 2018年10月 ~ 2018年11月 | 開発環境 | 規模 | 
-|------|------|------|
-| 【プロジェクト概要】<br>- セキュリティアプライアンスのIPoE回線対応に向けた技術検証<br><br/>【業務内容】<br> - 検証環境構築、設定投入を担当<br> - 検証項目・作成スケジュール調整<br> - 回線仕様調査<br><br/>【実績・取り組み】<br>- 関係部署と連携し、各種調整やテストを経て機能を予定通りにリリースした。  | 【習得技術】<br> - IPIP tunnel(IPv4 over IPv6)<br> - IPv6 | 2名<br>メンバー |
-
-
-<div style="page-break-after: always;"></div>
-
-## スキルセット
+### スキルセット
 
 <!--
 - 言語やフレームワークに限らないスキル。開発手法やプロセス、ツールなど
@@ -101,6 +63,43 @@
 | ドキュメントツール    | Redmine       | 4年       | 一通りの機能は理解している |
 |                       | Notion        | 2年       |  一通りの機能は理解している |
 
+## 職務経歴詳細
+
+| 2018年4月 ~ 現在 | バリオセキュア株式会社 |
+|----------------------------------------|-----------------|
+|事業内容: マネージド・セキュリティサービス（MSS）事業<br> 資本金: 7億5000万円（2024年2月末時点）<br> 従業員数: 88人 |　正社員として勤務　|
+  
+職種： インフラエンジニア
+
+※ 2018年4月～2018年6月：研修期間のためプロジェクトなし
+
+### AWS Site to Site VPN 技術検証
+
+| 2023年4月 ~ 2023年6月 | 開発環境 | 規模 | 
+|------|------|------|
+| 【プロジェクト概要】<br>- セキュリティアプライアンスのOS更新プロジェクトにおける技術検証<br><br/>【業務内容】<br>- 通信試験項目の作成・実施<br>- 新OS環境に適した設定手順の策定<br><br/>【実績・取り組み】<br> - 既存フローに存在しないトラブルシューティング項目を策定しNOCの運用改善に貢献<br> | 【AWS】<br> - AWS Site-to-Site VPN<br><br/> 【ミドルウェア】<br> - strongsSwan<br> - Quagga<br> | 3名<br>メンバー |
+
+<div style="page-break-after: always;"></div>
+
+### NOCチーム 新規立ち上げ
+
+| 2021年1月 ~ 2023年6月 | 開発環境 | 規模 | 
+|------|------|------|
+| 【プロジェクト概要】<br>- 自社NOCチームの新規立ち上げ<br><br/>【業務内容】<br>- NOC内の設定開通チームにて、業務フローの改善・メンバーの教育を担当<br> - kintoneアプリの開発<br>- プロファイルシートに沿った、UTM機器設定<br>- BGP接続サービス提供におけるナレッジ作成 <br><br/>【実績・取り組み】<br>- 属人化していたナレッジをファイルサーバー上に集約し、一元管理化 <br> - 紙ベースの納品フローをkintoneに完全移行し、Web上で完結できるようにした<br> - メンバーの教育を担当し、個々のスキルレベルの標準化を推進。これにより、上司から『NOC内でもっとも信頼できるチーム』として高く評価された。 | 【SaaS/PaaS】<br> - kintone<br><br/>【クラウドPBX】<br> - Biztel | 5名<br>チームリーダー |
+
+### Webフィルタリングソリューション ログ転送機能の実装
+
+| 2018年10月 ~ 2019年2月 | 開発環境 | 規模 | 
+|------|------|------|
+| 【プロジェクト概要】<br>- 顧客の規定でWebのアクセスログを半永久的に残す必要があり、提供していたWebフィルタリングソリューションを顧客サーバー上に転送する要件が発生した。<br><br/>【業務内容】<br>- Webフィルタリングシステムのログ転送機能の設計と実装 <br>- ログフォーマットの提供 <br><br/>【実績・取り組み】<br>- 既存のソリューション内で機能が完結するようにし、顧客の『ランニングコストを抑えたい』という要望を達成した <br>- 2台のソリューションのログを転送するため、送信時に機器のホスト名とタイムスタンプを付与しファイル名の重複を避けるようにした | - bash<br> - scp (SSH File Transfer Protocol) | 2名<br>メンバー |
+
+
+### JPIX v6プラス 技術検証
+
+| 2018年10月 ~ 2018年11月 | 開発環境 | 規模 | 
+|------|------|------|
+| 【プロジェクト概要】<br>- セキュリティアプライアンスのIPoE回線対応に向けた技術検証<br><br/>【業務内容】<br> - 検証環境構築、設定投入を担当<br> - 検証項目・作成スケジュール調整<br> - 回線仕様調査<br><br/>【実績・取り組み】<br>- 関係部署と連携し、各種調整やテストを経て機能を予定通りにリリースした。  | 【習得技術】<br> - IPIP tunnel(IPv4 over IPv6)<br> - IPv6 | 2名<br>メンバー |
+
 <div style="page-break-after: always;"></div>
 <!--
 Google App Script: kintoneのメンテナンス情報をSlack channelに通知する処理が実運用で採用された
@@ -124,7 +123,7 @@ Google App Script: kintoneのメンテナンス情報をSlack channelに通知�
 | 2023年12月 | LPI Security Essentials 020-100 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/3txgcdaec8) |
 | 2022年1月 | AWS Certified Cloud Practitioner | [認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url) |
 | 2020年12月 | AZ-900: Microsoft Azure Fundamentals | [認定証](https://www.credly.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde/public_url) |
-| 2020年3月 | LPIC Level1 | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy) |
+| 2020年3月 | LPIC-1 (Linux Professional Institute Certification Level 1) | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy) |
 | 2019年5月 | IPA 情報セキュリティマネジメント 合格 ||
 
 
@@ -141,8 +140,8 @@ Google App Script: kintoneのメンテナンス情報をSlack channelに通知�
 [![Blog URL](https://img.shields.io/badge/Plug%20me%20in-%23E9E5E3.svg?&style=flat-square&logo=astro&logoColor=black)](https://blog.da8ma.com/)
 
 ## 各種アカウント
-[![Github URL](https://img.shields.io/badge/Ryo%20Yamada%20-%2312100E.svg?&style=&logo=Github&logoColor=white)](https://github.com/da8ma)
-[![LinkedIn URL](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryo-y-ethernet/)
+[![Github URL](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/da8ma)
+[![LinkedIn URL](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/ryo-y-ethernet/)
 
 
 <!---
