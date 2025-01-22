@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "lint": "textlint docs/README.md",
+    "lint:fix": "textlint --fix docs/README.md",
     "build:pdf": "node build-pdf.js"
   },
   "repository": {
@@ -16,7 +17,7 @@
   "author": "Ryo Yamada <ryo.8mada1020@gmail.com>",
   "devDependencies": {
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.1",
-    "textlint": "^14.0.4",
+    "textlint": "^14.4.2",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-rule-abbr-within-parentheses": "^1.0.2",
     "textlint-rule-footnote-order": "^1.0.3",
@@ -30,8 +31,8 @@
     "textlint-rule-period-in-list-item": "^1.0.1",
     "textlint-rule-prefer-tari-tari": "^1.0.3",
     "textlint-rule-preset-ja-spacing": "^2.4.3",
-    "textlint-rule-preset-ja-technical-writing": "^10.0.1",
-    "textlint-rule-preset-jtf-style": "^2.3.14",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2",
+    "textlint-rule-preset-jtf-style": "^3.0.1",
     "textlint-rule-prh": "^6.0.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
   },
@@ -40,10 +41,10 @@
   },
   "dependencies": {
     "devicon": "^2.16.0",
-    "marked": "^15.0.4",
-    "ofetch": "^1.3.4",
-    "open-graph-scraper": "^6.7.2",
-    "puppeteer": "^23.10.4",
+    "marked": "^15.0.6",
+    "ofetch": "^1.4.1",
+    "open-graph-scraper": "^6.9.0",
+    "puppeteer": "^24.1.0",
     "textlint-filter-rule-allowlist": "^4.0.0"
   },
   "volta": {
