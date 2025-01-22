@@ -49,9 +49,11 @@
 |                       | Pacemaker       | 1年<br>  | - 調べながら構築可能 |
 |                       | Squid     | 1年 | - c-icapと連携し、URLフィルタ機能を実装<br> - 調べながら構築が可能 |
 | RAID   | Linux Software RAID | 0.5年 | - RAID1構築経験有り<br> - mdadmによるRAIDアレイの操作が一通り可能 |
-|  AWS   |  Amazon VPC | 3年　| 一通りの機能は把握できている |
-|     |  Amazon Site to Site VPN | 3年　| 一通りの機能は把握できている |
+|  AWS   |  Amazon VPC | 3年 | 一通りの機能は把握できている |
+|     |  Amazon Site to Site VPN | 3年 | 一通りの機能は把握できている |
 | Azure           |  Azure VPN Gateway ([Classic](https://docs.microsoft.com/ja-jp/azure/vpn-gateway/design#s2smulti))     | 1年   | 調べながら作業が可能 |
+|  Cloudflare   | Cloudflare Registrar  | 3年 | 個人ブログで使用するドメイン管理に使用 |
+|     | Cloudflare Pages  | 3年 | 個人ブログの静的ホスティング先として使用 |
 | モニタリング          | Zabbix         | 3年 | 1通りの機能は把握できている |
 | ソースコード管理      | Github | 3年  | 調べながら作業可能 |
 |                       | Gitlab | 3年  | 調べながら作業可能 |
@@ -69,9 +71,8 @@
 |----------------------------------------|-----------------|
 |事業内容: マネージド・セキュリティサービス（MSS）事業<br> 資本金: 7億5000万円（2024年2月末時点）<br> 従業員数: 88人 |　正社員として勤務　|
   
-職種： インフラエンジニア
-
-※ 2018年4月～2018年6月：研修期間のためプロジェクトなし
+職種： インフラエンジニア<br>
+※ 2018 年 4 月 ~ 2018 年 6 月 : 研修期間のためプロジェクトなし。
 
 ### AWS Site to Site VPN 技術検証
 
