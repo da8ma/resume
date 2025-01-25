@@ -20,6 +20,8 @@ jobs:
       - name: Set up Node.js and Yarn using Volta
         run: |
           export PATH="$HOME/.volta/bin:$PATH"
+          volta install node@22 yarn@4
+          echo "PATH=$HOME/.volta/bin:$PATH" >> $GITHUB_ENV
           volta run node --version
           volta run yarn --version
 
@@ -29,13 +31,11 @@ jobs:
 
       # 依存パッケージのインストール
       - name: Install dependencies
-        env:
-          PATH: "$HOME/.volta/bin:$PATH"
-        run: yarn install --immutable
+        run: volta run yarn install --immutable
 
       # MarkdownからPDFを生成
       - name: Generate PDF
-        run: yarn build:pdf
+        run: volta run yarn build:pdf
 
       # PDFファイルをリネーム
       - name: Rename PDF File
