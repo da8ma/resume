@@ -9,35 +9,28 @@ jobs:
   build:
     name: build pdf and upload release
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/puppeteer/puppeteer:latest  # Puppeteer公式コンテナ
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Install Volta
-        run: curl https://get.volta.sh | bash
-
-      - name: Set up Node.js and Yarn using Volta
         run: |
+          curl https://get.volta.sh | bash
           export PATH="$HOME/.volta/bin:$PATH"
           volta install node@22 yarn@4
           echo "PATH=$HOME/.volta/bin:$PATH" >> $GITHUB_ENV
           volta run node --version
           volta run yarn --version
 
-      # 日本語フォントをインストール (Puppeteer用)
-      - name: Install Japanese Fonts
-        run: sudo apt-get install -y fonts-noto-cjk
-
-      # 依存パッケージのインストール
       - name: Install dependencies
         run: volta run yarn install --immutable
 
-      # MarkdownからPDFを生成
       - name: Generate PDF
-        run: volta run yarn build:pdf -- --no-sandbox
+        run: volta run yarn build:pdf -- --no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage
 
-      # PDFファイルをリネーム
       - name: Rename PDF File
         id: rename
         run: |
@@ -45,7 +38,6 @@ jobs:
           mv ./docs/職務経歴書.pdf ./docs/resume_${DATE}.pdf
           echo "DATE=${DATE}" >> "$GITHUB_OUTPUT"
 
-      # PDF生成後、ファイルの存在確認
       - name: Debug PDF File
         run: |
           ls -l ./docs
@@ -54,7 +46,6 @@ jobs:
             exit 1
           fi
 
-      # GitHub Releaseの作成
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -62,7 +53,6 @@ jobs:
           TAG_NAME=${{ github.ref_name }}
           gh release create "$TAG_NAME" --title "Release $TAG_NAME" --notes "Automated release for $TAG_NAME"
 
-      # PDFアセットをGitHub Releaseにアップロード
       - name: Upload Release Asset
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
