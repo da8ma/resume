@@ -48,6 +48,7 @@
     "textlint-filter-rule-allowlist": "^4.0.0"
   },
   "volta": {
-    "node": "22.13.1"
+    "node": "22.13.1",
+    "yarn": "4.6.0"
   }
 }
