@@ -35,7 +35,7 @@ jobs:
 
       # MarkdownからPDFを生成
       - name: Generate PDF
-        run: volta run yarn build:pdf
+        run: volta run yarn build:pdf -- --no-sandbox
 
       # PDFファイルをリネーム
       - name: Rename PDF File
