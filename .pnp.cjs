@@ -1123,7 +1123,7 @@ const RAW_RUNTIME_STATE =
           ["parse5", "npm:7.2.1"],\
           ["parse5-htmlparser2-tree-adapter", "npm:7.1.0"],\
           ["parse5-parser-stream", "npm:7.1.2"],\
-          ["undici", "npm:6.21.0"],\
+          ["undici", "npm:6.21.1"],\
           ["whatwg-mimetype", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -3600,7 +3600,7 @@ const RAW_RUNTIME_STATE =
           ["chardet", "npm:2.0.0"],\
           ["cheerio", "npm:1.0.0"],\
           ["iconv-lite", "npm:0.6.3"],\
-          ["undici", "npm:6.21.0"]\
+          ["undici", "npm:6.21.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5663,10 +5663,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici", [\
-      ["npm:6.21.0", {\
-        "packageLocation": "../../.yarn/berry/cache/undici-npm-6.21.0-518681128e-10c0.zip/node_modules/undici/",\
+      ["npm:6.21.1", {\
+        "packageLocation": "../../.yarn/berry/cache/undici-npm-6.21.1-0f7fc2c179-10c0.zip/node_modules/undici/",\
         "packageDependencies": [\
-          ["undici", "npm:6.21.0"]\
+          ["undici", "npm:6.21.1"]\
         ],\
         "linkType": "HARD"\
       }]\
