@@ -47,7 +47,7 @@ jobs:
             libx11-xcb1
 
       - name: Generate PDF
-        run: volta run yarn build:pdf -- --no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage
+        run: volta run yarn build:pdf
 
       - name: Rename PDF File
         id: rename
