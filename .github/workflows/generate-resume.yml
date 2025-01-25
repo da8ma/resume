@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/puppeteer/puppeteer:latest  # Puppeteer公式コンテナ
+      options: --user root
 
     steps:
       - name: Checkout code
