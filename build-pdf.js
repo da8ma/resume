@@ -86,7 +86,13 @@ const outputFile = './docs/職務経歴書.pdf'; // 出力するPDFファイル
     `;
 
     // PuppeteerでPDFを生成
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+      args: [
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--headless=new',
+      ]
+    });
     const page = await browser.newPage();
 
     // コンテンツ設定
