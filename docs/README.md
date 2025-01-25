@@ -49,7 +49,8 @@
 |                       | Pacemaker       | 1年<br>  | - 調べながら構築可能 |
 |                       | Squid     | 1年 | - c-icapと連携し、URLフィルタ機能を実装<br> - 調べながら構築が可能 |
 | RAID   | Linux Software RAID | 0.5年 | - RAID1構築経験有り<br> - mdadmによるRAIDアレイの操作が一通り可能 |
-|  AWS   |  Amazon VPC | 3年 | 一通りの機能は把握できている |
+|  AWS   |  Amazon EC2 | 3年 | 一通りの機能は把握できている |
+|     |  Amazon VPC | 3年 | 一通りの機能は把握できている |
 |     |  Amazon Site to Site VPN | 3年 | 一通りの機能は把握できている |
 | Azure           |  Azure VPN Gateway ([Classic](https://docs.microsoft.com/ja-jp/azure/vpn-gateway/design#s2smulti))     | 1年   | 調べながら作業が可能 |
 |  Cloudflare   | Cloudflare Registrar  | 3年 | 個人ブログで使用するドメイン管理に使用 |
@@ -59,7 +60,7 @@
 |                       | Gitlab | 3年  | 調べながら作業可能 |
 | ベンダー機器          | Cisco         | 4年  | 自宅内で運用経験有り<br> - Router<br>  - Catalyst <br> - Access Point |
 |                       | Allied Telesis | 3年 | - L2SW<br> - 基本設定は理解 |
-|                       | NEC         | 3年 | 自宅内で運用経験有り<br> - UNIVERSERGE IX |
+|                       | NEC         | 3年 | 宅内NWで運用中<br> - UNIVERSERGE IX |
 |                       | Sophos      | 0.5年  | - L2SW (CS210-8FP)<br> - 調べながら作業が可能 |
 |                       | Dell (Server)       | 0.5年 |  - Dell PowerEdge<br> - iDRAC9<br> 調べながら構築可能 | 
 | ドキュメントツール    | Redmine       | 4年       | 一通りの機能は理解している |
@@ -72,7 +73,7 @@
 |事業内容: マネージド・セキュリティサービス（MSS）事業<br> 資本金: 7億5000万円（2024年2月末時点）<br> 従業員数: 88人 |　正社員として勤務　|
   
 職種： インフラエンジニア<br>
-※ 2018 年 4 月 ~ 2018 年 6 月 : 研修期間のためプロジェクトなし。
+**※ 2018 年 4 月 ~ 2018 年 6 月 : 研修期間のためプロジェクトなし。**
 
 ### AWS Site to Site VPN 技術検証
 
@@ -100,6 +101,32 @@
 | 2018年10月 ~ 2018年11月 | 開発環境 | 規模 | 
 |------|------|------|
 | 【プロジェクト概要】<br>- セキュリティアプライアンスのIPoE回線対応に向けた技術検証<br><br/>【業務内容】<br> - 検証環境構築、設定投入を担当<br> - 検証項目・作成スケジュール調整<br> - 回線仕様調査<br><br/>【実績・取り組み】<br>- 関係部署と連携し、各種調整やテストを経て機能を予定通りにリリースした。  | 【習得技術】<br> - IPIP tunnel(IPv4 over IPv6)<br> - IPv6 | 2名<br>メンバー |
+
+### プロジェクト期間外
+そのほか入社～現在まで、プロジェクト外の定常業務として下記を対応。
+- 運用チームからエスカレーションされたネットワーク障害の原因調査
+- 顧客要望による自社UTMのサイジング対応
+  - トラフィック使用量計測
+  - システムリソース使用状況モニタリング
+- 他ベンダー機器のconfigを自社UTM向けにコンバート
+  - 対応ベンダー
+    - Juniper NetScreen/SSG
+    - YAMAHA RTX
+    - Fortigate
+- 顧客のUTM導入サポート
+  - 設置時のトラブルシューティング
+- 脆弱性調査
+  - 影響を受けるホストの特定
+  - パッチ適用、設定変更、回避策（ワークアラウンド）の検討
+  - 対応した脆弱性
+    - FragmentSmack (CVE-2018-5391)
+    - TCP SACK PANIC (CVE-2019-11477, 2019-11478, 2019-11479)
+    - Apacheモジュールの脆弱性 (CVE-2019-0211, CVE-2019-0217, CVE-2019-0220)
+- データセンターマネジメント
+  - ルーター、スイッチ、ファイアウォールの設定変更
+  - IPアドレス管理
+  - サーバーの導入・撤去（ラックマウント、ケーブリング）
+  - 仮想化基盤の管理 (VMware ESXi)
 
 <div style="page-break-after: always;"></div>
 <!--
