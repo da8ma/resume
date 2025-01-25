@@ -28,23 +28,7 @@ jobs:
       - name: Install dependencies for Puppeteer
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
-            fonts-noto-cjk \
-            libnss3 \
-            libatk1.0-0 \
-            libatk-bridge2.0-0 \
-            libcups2 \
-            libxkbcommon-x11-0 \
-            libxcomposite1 \
-            libxrandr2 \
-            libasound2 \
-            libxss1 \
-            libglib2.0-0 \
-            libgbm-dev \
-            libpangocairo-1.0-0 \
-            libpangoft2-1.0-0 \
-            libjpeg62 \
-            libx11-xcb1
+          sudo apt-get install -y fonts-noto-cjk
 
       - name: Generate PDF
         run: volta run yarn build:pdf
