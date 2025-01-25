@@ -7,11 +7,7 @@ on:
 
 jobs:
   build:
-    name: build pdf and upload release
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/puppeteer/puppeteer:latest  # Puppeteer公式コンテナ
-      options: --user root
 
     steps:
       - name: Checkout code
@@ -28,6 +24,22 @@ jobs:
 
       - name: Install dependencies
         run: volta run yarn install --immutable
+
+      - name: Install dependencies for Puppeteer
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            fonts-noto-cjk \
+            libnss3 \
+            libatk1.0-0 \
+            libatk-bridge2.0-0 \
+            libcups2 \
+            libxkbcommon-x11-0 \
+            libxcomposite1 \
+            libxrandr2 \
+            libasound2 \
+            libxss1 \
+            libglib2.0-0
 
       - name: Generate PDF
         run: volta run yarn build:pdf -- --no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage
