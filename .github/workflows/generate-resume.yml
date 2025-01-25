@@ -37,7 +37,7 @@ jobs:
             libxkbcommon-x11-0 \
             libxcomposite1 \
             libxrandr2 \
-            libasound2t64 \
+            libasound2 \
             libxss1 \
             libglib2.0-0 \
             libgbm-dev \
