@@ -20,9 +20,8 @@ jobs:
       - name: Set up Node.js and Yarn using Volta
         run: |
           export PATH="$HOME/.volta/bin:$PATH"
-          volta install
-          node -v
-          yarn -v
+          volta run node --version
+          volta run yarn --version
 
       # 日本語フォントをインストール (Puppeteer用)
       - name: Install Japanese Fonts
