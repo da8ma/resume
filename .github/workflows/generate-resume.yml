@@ -3,7 +3,7 @@ name: Generate Resume PDF
 on:
   push:
     tags:
-    - 'v*'
+      - 'v*'
 
 jobs:
   build:
@@ -14,11 +14,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22.x'
-          cache: 'yarn'
+      - name: Install Volta
+        run: curl https://get.volta.sh | bash
+
+      - name: Set up Node.js and Yarn using Volta
+        run: |
+          export PATH="$HOME/.volta/bin:$PATH"
+          volta install node@22 yarn@4
+          node -v
+          yarn -v
 
       # 日本語フォントをインストール (Puppeteer用)
       - name: Install Japanese Fonts
@@ -26,12 +30,14 @@ jobs:
 
       # 依存パッケージのインストール
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: |
+          export PATH="$HOME/.volta/bin:$PATH"
+          yarn install --immutable
 
       # MarkdownからPDFを生成
       - name: Generate PDF
         run: yarn build:pdf
-      
+
       # PDFファイルをリネーム
       - name: Rename PDF File
         id: rename
