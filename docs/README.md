@@ -104,6 +104,8 @@
 |------|------|------|
 | 【プロジェクト概要】<br>- セキュリティアプライアンスのIPoE回線対応に向けた技術検証<br><br/>【業務内容】<br> - 検証環境構築、設定投入を担当<br> - 検証項目・作成スケジュール調整<br> - 回線仕様調査<br><br/>【実績・取り組み】<br>- 関係部署と連携し、各種調整やテストを経て機能を予定通りにリリースした。  | 【習得技術】<br> - IPIP tunnel(IPv4 over IPv6)<br> - IPv6 | 2名<br>メンバー |
 
+<div style="page-break-after: always;"></div>
+
 ### プロジェクト期間外
 そのほか入社～現在まで、プロジェクト外の定常業務として下記を対応。
 - 運用チームからエスカレーションされたネットワーク障害の原因調査
@@ -156,6 +158,11 @@ Google App Script: kintoneのメンテナンス情報をSlack channelに通知�
 | 2020年3月 | LPIC-1 (Linux Professional Institute Certification Level 1) | [認定証](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000411634/2r4garaqyy) |
 | 2019年5月 | IPA 情報セキュリティマネジメント 合格 ||
 
+### AWS Skill Builder
+
+| 取得日 | 資格名称 | 認定証リンク |
+| :-----: | ------- | :--------: |
+| 2025年1月 | AWS Cloud Quest: Cloud Practitioner | [認定証](https://www.credly.com/badges/60a69832-06a0-4031-915b-62e89a60a62b/public_url) |
 
 ### Coursera 修了証
 
