@@ -81,7 +81,7 @@
 
 | 2023年4月 ~ 2023年6月 | 開発環境 | 規模 | 
 |------|------|------|
-| 【プロジェクト概要】<br>- セキュリティアプライアンスのOS更新プロジェクトにおける技術検証<br><br/>【業務内容】<br>- 通信試験項目の作成・実施<br>- 新OS環境に適した設定手順の策定<br><br/>【実績・取り組み】<br> - 既存フローに存在しないトラブルシューティング項目を策定しNOCの運用改善に貢献<br> | 【AWS】<br> - AWS Site-to-Site VPN<br><br/> 【ミドルウェア】<br> - strongsSwan<br> - Quagga<br> | 3名<br>メンバー |
+| 【プロジェクト概要】<br>- セキュリティアプライアンスのOS更新プロジェクトにおける技術検証<br> - AWS Site-to-Site VPN の設定・検証、EC2インスタンスの構築・運用、CloudFormationを用いた環境構築<br><br/>【業務内容】<br>- strongSwan（IPsec VPN）とQuagga（BGP）を使用し、オンプレミス環境との接続検証<br> - 通信試験項目の作成・実施<br>- 新OS環境に適した設定手順の策定<br><br/>【実績・取り組み】<br> - AWS CloudFormationを活用し、EC2インスタンスやVPC設定の自動化に貢献<br> - マルチホーミング構成によるVPN接続の冗長化 / 経路制御を達成<br> - Zabbixを用いた監視体制の強化（VPNトンネルの接続状態監視、異常検知アラートの設定）<br> - 既存フローに存在しないトラブルシューティング項目を策定しNOCの運用改善に貢献<br> | 【AWS】<br> - AWS Site-to-Site VPN<br><br/> 【ミドルウェア】<br> - strongsSwan<br> - Quagga<br> | 3名<br>メンバー |
 
 <div style="page-break-after: always;"></div>
 
