@@ -151,11 +151,12 @@ Google App Script: kintoneのメンテナンス情報をSlack channelに通知�
 
 | 取得日 | 資格名称 | 認定証リンク |
 | :-----: | ------- | :--------: |
+| 2025年2月 | LPIC-2 Certification | [認定証](https://www.credly.com/badges/0fefe727-f740-436e-bcfa-0b381142a08b/public_url) |
 | 2024年4月 | Google Cloud Associate Cloud Engineer | [認定証](https://www.credly.com/badges/a48a80d1-b579-4d13-896a-9d742b22fa99/public_url) |
 | 2023年12月 | LPI Security Essentials 020-100 | [認定証](https://www.credly.com/badges/ba69e638-52ec-4a8b-8e46-210fdb0cbb56/public_url) |
 | 2022年1月 | AWS Certified Cloud Practitioner | [認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url) |
 | 2020年12月 | AZ-900: Microsoft Azure Fundamentals | [認定証](https://www.credly.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde/public_url) |
-| 2020年3月 | LPIC-1 (Linux Professional Institute Certification Level 1) | [認定証](https://www.credly.com/badges/df3f4c2b-247a-4a9a-8f30-6dfbb83aa804/public_url) |
+| 2020年3月 | LPIC-1 Certification | [認定証](https://www.credly.com/badges/df3f4c2b-247a-4a9a-8f30-6dfbb83aa804/public_url) |
 | 2019年5月 | IPA 情報セキュリティマネジメント 合格 ||
 
 ### AWS Skill Builder
@@ -164,14 +165,14 @@ Google App Script: kintoneのメンテナンス情報をSlack channelに通知�
 | :-----: | ------- | :--------: |
 | 2025年1月 | AWS Cloud Quest: Cloud Practitioner | [認定証](https://www.credly.com/badges/60a69832-06a0-4031-915b-62e89a60a62b/public_url) |
 
+<div style="page-break-after: always;"></div>
+
 ### Coursera 修了証
 
 | 取得日 | コース名称 | 修了証リンク |
 | :-----: | :------- | :-----------: |
 | 2019/10 | Essential Cloud Infrastructure: Foundation<br> 日本語版 | [修了証](https://www.coursera.org/account/accomplishments/verify/M3WSKG9YR3K9) |
 | 2019/08 | Google Cloud Platform Fundamentals: Core Infrastructure<br> 日本語版 | [修了証](https://www.coursera.org/account/accomplishments/verify/F9PQFFKYBPHJ) |
-
-<div style="page-break-after: always;"></div>
 
 ## Blog
 [![Blog URL](https://img.shields.io/badge/Plug%20me%20in-%23E9E5E3.svg?&style=flat-square&logo=astro&logoColor=black)](https://blog.da8ma.com/)
