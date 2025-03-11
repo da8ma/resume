@@ -155,7 +155,7 @@ Google App Script: kintoneのメンテナンス情報をSlack channelに通知�
 | 2024年4月 | Google Cloud Associate Cloud Engineer | [認定証](https://www.credly.com/badges/a48a80d1-b579-4d13-896a-9d742b22fa99/public_url) |
 | 2023年12月 | LPI Security Essentials 020-100 | [認定証](https://www.credly.com/badges/ba69e638-52ec-4a8b-8e46-210fdb0cbb56/public_url) |
 | 2022年1月 | AWS Certified Cloud Practitioner | [認定証](https://www.credly.com/badges/e5d39f38-5cd7-47cf-b1d4-4ef174e82fe8/public_url) |
-| 2020年12月 | AZ-900: Microsoft Azure Fundamentals | [認定証](https://www.credly.com/badges/ff4cfbb2-9123-45b2-b522-c7f7b48f8cde/public_url) |
+| 2020年12月 | AZ-900: Microsoft Azure Fundamentals | [認定証](https://learn.microsoft.com/api/credentials/share/ja-jp/RyoYamada-4053/A3148925C4E0657E?sharingId=E375F49FE8EB812C) |
 | 2020年3月 | LPIC-1 Certification | [認定証](https://www.credly.com/badges/df3f4c2b-247a-4a9a-8f30-6dfbb83aa804/public_url) |
 | 2019年5月 | IPA 情報セキュリティマネジメント 合格 ||
 
